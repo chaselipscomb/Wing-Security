@@ -1,22 +1,29 @@
 /* Navigation Large */
 .nav-large {
+  padding-left: 1vw;
+  padding-right: 1vw;
   display: flex;
   align-items: center;
-  min-height: 50px;
+  min-height: 45px;
+  max-width: 1024px;
+  margin: auto;
   height: 5vh;
 }
+
 .nav-contents {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
+
 .nav-contents-div {
   display: flex;
   flex-flow: row nowrap;
 }
+
 .nav-contents a {
   display: flex;
   align-items: center;
@@ -30,12 +37,15 @@
   color: #c4c4c5;
   transition-duration: 0.1s;
 }
+
 .nav-contents a:hover {
   color: whitesmoke;
 }
+
 #nav-large-logo {
   width: 100px;
 }
+
 #nav-large-note {
   margin-left: 10px;
   width: 150px;
@@ -48,17 +58,21 @@
   min-height: 50px;
   justify-content: center;
 }
+
 .nav-mobile-header {
+  padding: 0px 5px;
   min-height: 50px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-mobile-header-div {
   display: flex;
   flex-flow: row nowrap;
 }
+
 #nav-mobile-logo {
   width: 100px;
 }
@@ -72,6 +86,7 @@
   background-color: rgb(27, 27, 31);
   display: flex;
   flex-flow: column nowrap;
+  border-bottom: 1px solid white;
 }
 
 .nav-dropdown a {
@@ -89,8 +104,17 @@
   border-bottom: 1px solid grey;
   padding: 1vh 0vw;
 }
+
 .nav-dropdown a:hover {
   color: whitesmoke;
+}
+
+/* Dropdown button */
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 /* Menu Bar Icon */
@@ -98,6 +122,7 @@
   display: inline-block;
   cursor: pointer;
 }
+
 
 .bar1,
 .bar2,
@@ -123,17 +148,130 @@
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+/* overview-nav */
+.overview-nav {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  background-color: rgb(9, 25, 38);
+  min-height: 45px;
+  border-bottom: 1px solid grey;
+}
+
+.overview-nav-title {
+  margin: 0;
+  font-size: 21px;
+}
+
+.overview-nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+}
+
+.overview-nav-text {
+  text-decoration: none;
+  color: #c4c4c5;
+  font-size: 12px;
+}
+
+.overview-nav-text:hover {
+  color: rgb(119, 119, 255);
+}
+
+#overview-nav-overview {
+  color: grey;
+}
+
+.overview-nav-mobile {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(121, 121, 121);
+}
+
+.overview-nav-header {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40px;
+  padding: 0px 10px;
+}
+
+.overview-mobile-dropdown {
+  display: flex;
+  flex-flow: column nowrap;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+.overview-mobile-dropdown a {
+  font-size: 14px;
+  line-height: 3.14286;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  color: #c4c4c5;
+  transition-duration: 0.1s;
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid grey;
+  padding: 1vh 0vw;
+}
+
+.overview-dropdown a:hover {
+  color: rgb(119, 119, 255);
+
+}
+
+.overview-dropdown {
+  width: 100%;
+  padding: 0px 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#overview-icon {
+  transition-duration: .5s;
+}
+
+#overview-icon:hover {
+  cursor: pointer;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 900px) {
   .nav-large {
     display: none;
   }
+
+  .overview-nav {
+    display: none;
+  }
 }
+
 @media only screen and (min-width: 901px) {
   .nav-mobile {
     display: none;
   }
+
+  .overview-nav-mobile {
+    display: none;
+  }
 }
+
 @media only screen and (max-width: 370px) {
   #nav-mobile-logo {
     width: 75px;
@@ -143,6 +281,7 @@
     margin-left: 10px;
     width: 120px;
   }
+
   .bar1,
   .bar2,
   .bar3 {
@@ -152,6 +291,7 @@
     margin: 5px 0;
     transition: 0.4s;
   }
+
   .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-5px, 5px);
     transform: rotate(-45deg) translate(-5px, 5px);

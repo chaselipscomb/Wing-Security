@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="security.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="navigations.css" />
     <link rel="stylesheet" href="video-section.css" />
     <title>Security</title>
     <style>
@@ -21,6 +26,8 @@
       body {
         background-color: black;
         color: white;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue",
+          "Helvetica", "Arial", sans-serif;
       }
     </style>
   </head>
@@ -70,33 +77,86 @@
         <a href="#">SUPPORT</a>
         <a style="border-bottom: none;" href="#">GET EARLY ACCESS</a>
       </div>
-      <p style="display: none;">This is a paragraph.</p>
     </nav>
     <!-- Navigation End -->
     <!-- Header-Video Section Start -->
-    <section class="header-section">
-      <div class="header-left-side">
-        <!-- <i class="fa fa-lock" id="lock-icon"></i> -->
-        <div class="container">
-          <span class="lock"></span>
-          <h1 class="header-headline">Privacy</h1>
+    <div style="background-color: rgb(9, 25, 38);">
+      <nav class="overview-nav">
+        <p class="overview-nav-title">Privacy</p>
+        <div class="overview-nav-list">
+          <p class="overview-nav-text" id="overview-nav-overview">Overview</p>
+          <a href="#" class="overview-nav-text">Terms of Service</a>
+          <a href="#" class="overview-nav-text">Privacy Policy</a>
+          <a href="#" class="overview-nav-text">Zero Tolerance</a>
+          <a href="#" class="overview-nav-text">Policy</a>
         </div>
-        <p class="header-intro">Privacy is a Core Value at Wing.</p>
-        <p class="header-intro">Learn more in this interview with our CEO:</p>
-      </div>
-      <div class="video-side">
-        <iframe src="hhttps://www.youtube.com/watch?v=CR_ALkfev9g"></iframe>
-      </div>
-    </section>
+      </nav>
+      <nav class="overview-nav-mobile">
+        <div class="overview-nav-header">
+          <i
+            class="fas fa-angle-down"
+            id="overview-icon"
+            style="font-size:36px"
+          ></i>
+          <p class="overview-nav-title">Privacy</p>
+        </div>
+        <div style="display: none;" class="overview-mobile-dropdown">
+          <a href="#">How It Works</a>
+          <a href="#">FAQ</a>
+          <a href="#">PRIVACY AND SECURITY</a>
+          <a href="#">SUPPORT</a>
+          <a style="border-bottom: none;" href="#">GET EARLY ACCESS</a>
+        </div>
+      </nav>
+      <section class="header-section">
+        <div class="header-left-side">
+          <div class="container">
+            <span class="lock"></span>
+            <h1 class="header-headline">Privacy</h1>
+          </div>
+          <p class="header-intro">Privacy is a Core Value at Wing.</p>
+          <p class="header-intro">Learn more in this interview with our CEO:</p>
+        </div>
+        <div class="video-side">
+          <iframe
+            src="https://www.youtube.com/embed/CR_ALkfev9g"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </div>
     <!-- Header-Video Section End -->
   </body>
   <script>
     $(document).ready(function() {
+      // small mobile nav button click toggles overview slide
+      $("#overview-icon").click(function() {
+        $(".overview-mobile-dropdown").slideToggle();
+      });
+      // small mobile nav button click toggles the carrot based on rotate degree
+      $("#overview-icon").click(function() {
+        if (document.getElementById("overview-icon").style.transform == "") {
+          document.getElementById("overview-icon").style.transform =
+            "rotate(180deg)";
+        } else if (
+          document.getElementById("overview-icon").style.transform ==
+          "rotate(360deg)"
+        ) {
+          document.getElementById("overview-icon").style.transform =
+            "rotate(180deg)";
+        } else {
+          document.getElementById("overview-icon").style.transform =
+            "rotate(360deg)";
+        }
+      });
+      // large mobile nav toggle slide function
       $(".menu-icon").click(function() {
         $(".nav-dropdown").slideToggle();
       });
     });
   </script>
+  <!-- script tags needed for mobile icon animation -->
   <script>
     function myFunction(x) {
       x.classList.toggle("change");
