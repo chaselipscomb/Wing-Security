@@ -1,0 +1,29 @@
+.footer-large {
+  background-color: black;
+  padding: 5vh 0px 0px 0px;
+}
+
+.footer-large-container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.footer-head {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+#large-footer-logo {
+  width: 120px;
+}
+
+#right-arrow {
+  font-size: 30px;
+  margin: 0px 15px 0px 20px;
+}
+
+.footer-head-text {
+  font-size: 18px;
+}

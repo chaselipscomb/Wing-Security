@@ -1,78 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="navigations.css" />
-    <link rel="stylesheet" href="video-section.css" />
-    <link rel="stylesheet" href="safety-security.css" />
 
-    <title>Security</title>
-    <style>
-      /* All */
-      * {
-        box-sizing: border-box;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="navigations.css" />
+  <link rel="stylesheet" href="video-section.css" />
+  <link rel="stylesheet" href="safety-security.css" />
+  <link rel="stylesheet" href="pricing.css" />
+  <link rel="stylesheet" href="footer-large.css" />
 
-      /* Body */
-      body {
-        background-color: black;
-        color: white;
-        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue",
-          "Helvetica", "Arial", sans-serif;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Navigation Start -->
-    <nav class="nav-large">
-      <div class="nav-contents">
-        <div class="nav-contents-div">
-          <a href="#">
-            <img
-              id="nav-large-logo"
-              src="https://chaselipscomb.github.io/WingLogo/wlogof.png"
-              alt="Logo"
-            />
-          </a>
-          <img id="nav-large-note" src="wing-logo-not.svg" alt="Note" />
-        </div>
-        <a href="#">HOW IT WORKS</a>
-        <a href="#">FAQ</a>
-        <a href="#">PRIVACY AND SECURITY</a>
-        <a href="#">SUPPORT</a>
-        <a href="#">GET EARLY ACCESS</a>
+  <title>Security</title>
+  <style>
+    /* All */
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Body */
+    body {
+      background-color: black;
+      color: white;
+      font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue",
+        "Helvetica", "Arial", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation Start -->
+  <nav class="nav-large">
+    <div class="nav-contents">
+      <div class="nav-contents-div">
+        <a href="#">
+          <img id="nav-large-logo" src="https://chaselipscomb.github.io/WingLogo/wlogof.png" alt="Logo" />
+        </a>
+        <img id="nav-large-note" src="wing-logo-not.svg" alt="Note" />
+      </div>
+      <a href="#">HOW IT WORKS</a>
+      <a href="#">FAQ</a>
+      <a href="#">PRIVACY AND SECURITY</a>
+      <a href="#">SUPPORT</a>
+      <a href="#">GET EARLY ACCESS</a>
+    </div>
+  </nav>
+  <nav class="nav-mobile">
+    <div class="nav-mobile-header">
+      <div class="nav-mobile-header-div">
+        <a href="#">
+          <img id="nav-mobile-logo" src="https://chaselipscomb.github.io/WingLogo/wlogof.png" alt="Logo" />
+        </a>
+        <img id="nav-mobile-note" src="wing-logo-not.svg" alt="Note" />
+      </div>
+      <div class="menu-icon" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+    <div style="display:none;" class="nav-dropdown">
+      <a href="#">How It Works</a>
+      <a href="#">FAQ</a>
+      <a href="#">PRIVACY AND SECURITY</a>
+      <a href="#">SUPPORT</a>
+      <a style="border-bottom: none;" href="#">GET EARLY ACCESS</a>
+    </div>
+  </nav>
+  <!-- Navigation End -->
+  <!-- Header-Video Section Start -->
+  <div style="background-color: rgb(9, 25, 38);">
+    <nav class="overview-nav">
+      <p class="overview-nav-title">Privacy</p>
+      <div class="overview-nav-list">
+        <p class="overview-nav-text" id="overview-nav-overview">Overview</p>
+        <a href="#" class="overview-nav-text">Terms of Service</a>
+        <a href="#" class="overview-nav-text">Privacy Policy</a>
+        <a href="#" class="overview-nav-text">Zero Tolerance</a>
+        <a href="#" class="overview-nav-text">Policy</a>
       </div>
     </nav>
-    <nav class="nav-mobile">
-      <div class="nav-mobile-header">
-        <div class="nav-mobile-header-div">
-          <a href="#">
-            <img
-              id="nav-mobile-logo"
-              src="https://chaselipscomb.github.io/WingLogo/wlogof.png"
-              alt="Logo"
-            />
-          </a>
-          <img id="nav-mobile-note" src="wing-logo-not.svg" alt="Note" />
-        </div>
-        <div class="menu-icon" onclick="myFunction(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
+    <nav class="overview-nav-mobile">
+      <div class="overview-nav-header">
+        <i class="fas fa-angle-down" id="overview-icon" style="font-size:36px"></i>
+        <p class="overview-nav-title">Privacy</p>
       </div>
-      <div style="display:none;" class="nav-dropdown">
+      <div style="display: none;" class="overview-mobile-dropdown">
         <a href="#">How It Works</a>
         <a href="#">FAQ</a>
         <a href="#">PRIVACY AND SECURITY</a>
@@ -80,82 +96,52 @@
         <a style="border-bottom: none;" href="#">GET EARLY ACCESS</a>
       </div>
     </nav>
-    <!-- Navigation End -->
-    <!-- Header-Video Section Start -->
-    <div style="background-color: rgb(9, 25, 38);">
-      <nav class="overview-nav">
-        <p class="overview-nav-title">Privacy</p>
-        <div class="overview-nav-list">
-          <p class="overview-nav-text" id="overview-nav-overview">Overview</p>
-          <a href="#" class="overview-nav-text">Terms of Service</a>
-          <a href="#" class="overview-nav-text">Privacy Policy</a>
-          <a href="#" class="overview-nav-text">Zero Tolerance</a>
-          <a href="#" class="overview-nav-text">Policy</a>
+    <section class="header-section">
+      <div class="header-left-side">
+        <div class="container">
+          <span class="lock"></span>
+          <h1 class="header-headline">Privacy</h1>
         </div>
-      </nav>
-      <nav class="overview-nav-mobile">
-        <div class="overview-nav-header">
-          <i
-            class="fas fa-angle-down"
-            id="overview-icon"
-            style="font-size:36px"
-          ></i>
-          <p class="overview-nav-title">Privacy</p>
-        </div>
-        <div style="display: none;" class="overview-mobile-dropdown">
-          <a href="#">How It Works</a>
-          <a href="#">FAQ</a>
-          <a href="#">PRIVACY AND SECURITY</a>
-          <a href="#">SUPPORT</a>
-          <a style="border-bottom: none;" href="#">GET EARLY ACCESS</a>
-        </div>
-      </nav>
-      <section class="header-section">
-        <div class="header-left-side">
-          <div class="container">
-            <span class="lock"></span>
-            <h1 class="header-headline">Privacy</h1>
-          </div>
-          <p class="header-intro">Privacy is a Core Value at Wing.</p>
-          <p class="header-intro">Learn more in this interview with our CEO:</p>
-        </div>
-        <div class="video-side">
-          <iframe
-            src="https://www.youtube.com/embed/CR_ALkfev9g"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </section>
+        <p class="header-intro">Privacy is a Core Value at Wing.</p>
+        <p class="header-intro">Learn more in this interview with our CEO:</p>
+      </div>
+      <div class="video-side">
+        <iframe src="https://www.youtube.com/embed/CR_ALkfev9g"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+  </div>
+  <!-- Header-Video Section End -->
+  <!-- Safety and Security Section Start -->
+  <section class="safety-security-section">
+    <div class="safety-security-header-container">
+      <header class="safety-security-header">Designed for your Safety</header>
     </div>
-    <!-- Header-Video Section End -->
-    <!-- Safety and Security Section Start -->
-    <section class="safety-security-section">
-      <div class="safety-security-header-container">
-        <header class="safety-security-header">Designed for your Safety</header>
-      </div>
-      <div class="safety-card">
-        <div class="safety-card-left" id="first-safety-card-left">
-          <div class="safety-card-left-container">
-            <header class="safety-left-header">Vetted Partners.</header>
-            <p class="safety-left-text">
-              Wing only works with accredited partners, businesses, and
-              services. All of our Partners that provide services must meet our
-              stringent Quality & Safety Guidelines.<br /><br />
-              Any indivuals Wing contracts are background-checked by an
-              industry-leading background check provider, CheckR, at both the
-              State & Federal level.
-            </p>
-          </div>
-        </div>
-        <div class="safety-card-right" id="first-safety-card-right">
-          <img src="icons/network.png" alt="network.png" class="card-icon" />
+    <div class="safety-card">
+      <div class="safety-card-left" id="first-safety-card-left">
+        <div class="safety-card-left-container">
+          <header class="safety-left-header">Vetted Partners</header>
+          <br />
+          <p class="safety-left-text">
+            Wing only works with accredited partners, businesses, and
+            services. All of our Partners that provide services must meet our
+            stringent Quality & Safety Guidelines.<br /><br />
+            Any indivuals Wing contracts are background-checked by an
+            industry-leading background check provider, CheckR, at both the
+            State & Federal level.
+          </p>
         </div>
       </div>
-      <div class="safety-card">
+      <div class="safety-card-right" id="first-safety-card-right">
+        <img src="icons/network.png" alt="network.png" class="card-icon"" />
+        </div>
+      </div>
+      <div class=" safety-card">
         <div class="safety-card-left" id="second-safety-card-left">
           <div class="safety-card-left-container">
             <header class="safety-left-header">Operations Team</header>
+            <br />
+
             <p class="safety-left-text">
               Wing staffs a large operations team, and trains all of our staff
               to be trained at issues that may arise regarding safety.<br /><br />
@@ -173,6 +159,7 @@
         <div class="safety-card-left" id="third-safety-card-left">
           <div class="safety-card-left-container">
             <header class="safety-left-header">Insured!</header>
+            <br />
             <p class="safety-left-text">
               Any requests perfomed by our partners are fully insured to up $1M!
               <br />
@@ -186,45 +173,468 @@
           <img src="icons/shield.png" alt="shield.png" class="card-icon" />
         </div>
       </div>
-    </section>
-  </body>
-  <script>
-    $(document).ready(function() {
-      // small mobile nav button click toggles overview slide
-      $("#overview-icon").click(function() {
-        $(".overview-mobile-dropdown").slideToggle();
-      });
-      // small mobile nav button click toggles the carrot based on rotate degree
-      $("#overview-icon").click(function() {
-        if (document.getElementById("overview-icon").style.transform == "") {
-          document.getElementById("overview-icon").style.transform =
-            "rotate(180deg)";
-        } else if (
-          document.getElementById("overview-icon").style.transform ==
-          "rotate(360deg)"
-        ) {
-          document.getElementById("overview-icon").style.transform =
-            "rotate(180deg)";
-        } else {
-          document.getElementById("overview-icon").style.transform =
-            "rotate(360deg)";
-        }
-      });
-      // large mobile nav toggle slide function
-      $(".menu-icon").click(function() {
-        $(".nav-dropdown").slideToggle();
-      });
+      <!-- Security Card 1 -->
+      <div class="safety-card" id="security-cards">
+        <div class="safety-card-left" id="fourth-safety-card-left">
+          <div class="safety-card-left-container">
+            <header class="safety-left-header">
+              Securing Your Data in Transit
+            </header>
+            <br class="security-text-breaks" />
+            <br class="security-text-breaks" />
+            <br />
+            <p class="safety-left-text" id="security-card-left-text">
+              All data in transit between you, your network, and Wing, its
+              technologies, its servers, partners, providers, and all key
+              stakeholders are encrypted via SSL using 2048-bit certificates.
+            </p>
+            <div class="learn-more-container" id="first-learn-more-container">
+              <i class="fa fa-plus" id="first-more-button" aria-hidden="true"></i>
+              <span id="first-learn-more-span">Learn More</span>
+            </div>
+          </div>
+        </div>
+        <div class="safety-card-right" id="fourth-safety-card-right">
+          <img src="icons/lock.png" alt="lock.png" class="card-icon" />
+        </div>
+        <div class="safety-card-hidden" id="first-hidden-card">
+          <div class="hidden-content-container">
+            <div class="learn-more-container" id="first-learn-more-container">
+              <i class="fa fa-plus" id="first-hidden-button" aria-hidden="true"></i>
+            </div>
+            <h2 class="hidden-header">Securing Your Data</h2>
+            <p class="hidden-text">
+              This means, third parties can't "listen in" or "packet sniff" as
+              your data is in transit over the network.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Security Card 2 -->
+      <div class="safety-card" id="security-cards">
+        <div class="safety-card-left" id="fifth-safety-card-left">
+          <div class="safety-card-left-container">
+            <header class="safety-left-header">
+              Bank-Level Security
+            </header>
+            <br class="security-text-breaks" />
+            <br class="security-text-breaks" />
+            <br />
+            <p class="safety-left-text" id="security-card-left-text">
+              Within our systems, all your data is stored using AES-256
+              encryption with a uniquely derived key for each user following the
+              recommendations of NIST S.P. 800-132. We encrypt all personally
+              identifiable data.
+            </p>
+            <div class="learn-more-container" id="second-learn-more-container">
+              <i class="fa fa-plus" id="second-more-button" aria-hidden="true"></i>
+              <span id="second-learn-more-span">Learn More</span>
+            </div>
+          </div>
+        </div>
+        <div class="safety-card-right" id="fifth-safety-card-right">
+          <img src="icons/pay.png" alt="pay.png" class="card-icon" />
+        </div>
+        <div class="safety-card-hidden" id="second-hidden-card">
+          <div class="hidden-content-container">
+            <div class="learn-more-container" id="second-learn-more-container">
+              <i class="fa fa-plus" id="second-hidden-button" aria-hidden="true"></i>
+            </div>
+            <h2 class="hidden-header">Bank-Level</h2>
+            <p class="hidden-text">
+              This means, even in the unlikely event our systems are
+              compromised, a malicious actor cannot read any data.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Security Card 3 -->
+      <div class="safety-card" id="security-cards">
+        <div class="safety-card-left" id="sixth-safety-card-left">
+          <div class="safety-card-left-container">
+            <header class="safety-left-header">
+              Limited Access to Your Data
+            </header>
+            <br class="security-text-breaks" />
+            <br class="security-text-breaks" />
+            <br />
+            <p class="safety-left-text" id="security-card-left-text">
+              We lock ourselves out of your data. Our internal systems,
+              operations teams, support agents & employees do not have access to
+              your information. Your information only becomes available to our
+              AI & one human operator when digitally authorized, or consented by
+              you.
+            </p>
+            <div class="learn-more-container" id="third-learn-more-container">
+              <i class="fa fa-plus" id="third-more-button" aria-hidden="true"></i>
+              <span id="third-learn-more-span">Learn More</span>
+            </div>
+          </div>
+        </div>
+        <div class="safety-card-right" id="sixth-safety-card-right">
+          <img src="icons/key.png" alt="key.png" class="card-icon" />
+        </div>
+        <div class="safety-card-hidden" id="third-hidden-card">
+          <div class="hidden-content-container">
+            <div class="learn-more-container" id="third-learn-more-container">
+              <i class="fa fa-plus" id="third-hidden-button" aria-hidden="true"></i>
+            </div>
+            <h2 class="hidden-header">Limited Access</h2>
+            <p class="hidden-text">
+              This means, Wing is unable to access your data until you authorize
+              us to do so.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Secutiry Card 4 -->
+      <div class="safety-card" id="security-cards">
+        <div class="safety-card-left" id="seventh-safety-card-left">
+          <div class="safety-card-left-container">
+            <header class="safety-left-header">
+              PCI Level 1 Compliance
+            </header>
+            <br class="security-text-breaks" />
+            <br class="security-text-breaks" />
+            <br />
+            <p class="safety-left-text" id="security-card-left-text">
+              Our payments partner, Stripe - an industry leading provider, has
+              been audited by an independent PCI Qualified Security Assessor and
+              is certified as a PCI Level 1 Service Provider. This is the most
+              stringent level of certification available in the payments
+              industry.
+            </p>
+            <div class="learn-more-container" id="fourth-learn-more-container">
+              <i class="fa fa-plus" id="fourth-more-button" aria-hidden="true"></i>
+              <span id="fourth-learn-more-span">Learn More</span>
+            </div>
+          </div>
+        </div>
+        <div class="safety-card-right" id="seventh-safety-card-right">
+          <img src="icons/law.png" alt="law.png" class="card-icon" />
+        </div>
+        <div class="safety-card-hidden" id="fourth-hidden-card">
+          <div class="hidden-content-container">
+            <div class="learn-more-container" id="fourth-learn-more-container">
+              <i class="fa fa-plus" id="fourth-hidden-button" aria-hidden="true"></i>
+            </div>
+            <h2 class="hidden-header">Compliance</h2>
+            <p class="hidden-text">
+              This means, we abide by the most stringent level of certification
+              available in the industry.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Secutiry Card 5 -->
+      <div class="safety-card" id="security-cards">
+        <div class="safety-card-left" id="eigth-safety-card-left">
+          <div class="safety-card-left-container">
+            <header class="safety-left-header">
+              Authentication, Everytime
+            </header>
+            <br class="security-text-breaks" />
+            <br class="security-text-breaks" />
+            <br />
+            <p class="safety-left-text" id="security-card-left-text">
+              Everytime your account, or your device, requests - or sends data
+              or requests via Wing, or it's internal systems - your device's
+              identity is authenticated and verified with our servers.
+            </p>
+            <div class="learn-more-container" id="fifth-learn-more-container">
+              <i class="fa fa-plus" id="fifth-more-button" aria-hidden="true"></i>
+              <span id="fifth-learn-more-span">Learn More</span>
+            </div>
+          </div>
+        </div>
+        <div class="safety-card-right" id="eigth-safety-card-right">
+          <img src="icons/safe.png" alt="safe.png" class="card-icon" />
+        </div>
+        <div class="safety-card-hidden" id="fifth-hidden-card">
+          <div class="hidden-content-container">
+            <div class="learn-more-container" id="fifth-learn-more-container">
+              <i class="fa fa-plus" id="fifth-hidden-button" aria-hidden="true"></i>
+            </div>
+            <h2 class="hidden-header">Authentication</h2>
+            <p class="hidden-text">
+              This means, a malicious actor trying to send/receive data by
+              pretending to be you, will not be able to do so
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Security Card 6 -->
+      <div class="safety-card" id="security-cards">
+        <div class="safety-card-left" id="ninth-safety-card-left">
+          <div class="safety-card-left-container">
+            <header class="safety-left-header">
+              Always Staying Ahead!
+            </header>
+            <br class="security-text-breaks" />
+            <br class="security-text-breaks" />
+            <br />
+            <p class="safety-left-text" id="security-card-left-text">
+              Wing cares immensely for your privacy and data security. We want
+              our clients to feel at ease trusting us completely. We invest a
+              lot into security engineering talent and resources dedicated to
+              keeping your data, our platform, and your activity completely
+              secure.
+            </p>
+            <div class="learn-more-container" id="sixth-learn-more-container">
+              <i class="fa fa-plus" id="sixth-more-button" aria-hidden="true"></i>
+              <span id="sixth-learn-more-span">Learn More</span>
+            </div>
+          </div>
+        </div>
+        <div class="safety-card-right" id="ninth-safety-card-right">
+          <img src="icons/telescope.png" alt="telescope.png" class="card-icon" />
+        </div>
+        <div class="safety-card-hidden" id="sixth-hidden-card">
+          <div class="hidden-content-container">
+            <div class="learn-more-container" id="sixth-learn-more-container">
+              <i class="fa fa-plus" id="sixth-hidden-button" aria-hidden="true"></i>
+            </div>
+            <h2 class="hidden-header">Always Ahead!</h2>
+            <p class="hidden-text">
+              This means, we're constantly adapting to potential threats
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Price Section -->
+  <section class="price-section">
+    <div class="pricing-header-section">
+      <p class="pricing-header">Pricing</p>
+      <p class="pricing-subheader">
+        First 7 days free. No commitment. Cancel anytime.
+      </p>
+      <p class="monthly-annually">
+        <span id="monthly">Monthly</span>
+        <span id="annually">Annualy</span>
+      </p>
+    </div>
+    <!-- Monthly Cards -->
+    <div class="pricing-cards" id="monthly-cards">
+      <div class="price-card">
+        <div class="price-icon-container">
+          <img src="icons/diamond.png" alt="Standard" class="price-icon" />
+        </div>
+        <p class="quality-type">Standard</p>
+        <p class="quality-amount">
+          $9.99
+        </p>
+        <p class="line-break" />
+        </p>
+        <div class="price-info">
+          <p>Unlimited requests</p>
+          <p>Predictive Reminders</p>
+          <p>Private Wing Vault</p>
+        </div>
+        <a class="free-trial" href="#">Try free for one week</a>
+      </div>
+      <div class="price-card">
+        <div class="price-icon-container">
+          <img src="icons/diamond-premium.png" alt="Premium" class="price-icon" />
+        </div>
+        <p class="quality-type">Premium</p>
+        <p class="quality-amount">
+          $19.99
+        </p>
+        <p class="line-break" />
+        </p>
+        <div class="price-info">
+          <p>Everything in Standard and...</p>
+          <p>Habits</p>
+          <p>Text or Call Requests</p>
+          <p>The Wing Welcome Box</p>
+          <p class="coming-soon">WhatsApp or Slack Requests (Coming soon)</p>
+          <p class="coming-soon">Chrome Extension (Coming soon)</p>
+        </div>
+        <a class="free-trial" href="#">Try free for one week</a>
+      </div>
+    </div>
+    <!-- Annual Price Cards -->
+    <div class="pricing-cards" id="annually-cards" style="display: none;">
+      <div class="price-card">
+        <div class="price-icon-container">
+          <img src="icons/diamond.png" alt="Standard" class="price-icon" />
+        </div>
+        <p class="quality-type">Standard (17% OFF)</p>
+        <p class="quality-amount">
+          $99
+        </p>
+        <p class="line-break" />
+        </p>
+        <div class="price-info">
+          <p>Unlimited requests</p>
+          <p>Predictive Reminders</p>
+          <p>Private Wing Vault</p>
+        </div>
+        <a class="free-trial" href="#">Try free for one week</a>
+      </div>
+      <div class="price-card">
+        <div class="price-icon-container">
+          <img src="icons/diamond-premium.png" alt="Premium" class="price-icon" />
+        </div>
+        <p class="quality-type">Premium (17% OFF)</p>
+        <p class="quality-amount">
+          $199
+        </p>
+        <p class="line-break" />
+        </p>
+        <div class="price-info">
+          <p>Everything in Standard and...</p>
+          <p>Habits</p>
+          <p>Text or Call Requests</p>
+          <p>The Wing Welcome Box</p>
+          <p class="coming-soon">WhatsApp or Slack Requests (Coming soon)</p>
+          <p class="coming-soon">Chrome Extension (Coming soon)</p>
+        </div>
+        <a class="free-trial" href="#">Try free for one week</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Laptop-Footer -->
+  <footer class="footer-large">
+    <div class="footer-large-container">
+      <div class="footer-head">
+        <img src="https://chaselipscomb.github.io/WingLogo/wlogof.png" alt="Logo" id="large-footer-logo">
+        <i class="fa fa-angle-right" id="right-arrow"></i>
+        <p class="footer-head-text">Privacy</p>
+      </div>
+      <div class="footer-large-contents">
+        Footer Contents here
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+<script>
+  $(document).ready(function () {
+    // small mobile nav button click toggles overview slide
+    $("#overview-icon").click(function () {
+      $(".overview-mobile-dropdown").slideToggle();
     });
-  </script>
-  <!-- script tags needed for mobile icon animation -->
-  <script>
-    function myFunction(x) {
-      x.classList.toggle("change");
-    }
-  </script>
-  <script>
-    $(".lock").click(function() {
-      $(this).toggleClass("unlocked");
+    // small mobile nav button click toggles the carrot based on rotate degree
+    $("#overview-icon").click(function () {
+      if (document.getElementById("overview-icon").style.transform == "") {
+        document.getElementById("overview-icon").style.transform =
+          "rotate(180deg)";
+      } else if (
+        document.getElementById("overview-icon").style.transform ==
+        "rotate(360deg)"
+      ) {
+        document.getElementById("overview-icon").style.transform =
+          "rotate(180deg)";
+      } else {
+        document.getElementById("overview-icon").style.transform =
+          "rotate(360deg)";
+      }
     });
-  </script>
+    // large mobile nav toggle slide function
+    $(".menu-icon").click(function () {
+      $(".nav-dropdown").slideToggle();
+    });
+    // click first learn more button. make the learn more visible full screen
+    $("#first-learn-more-container").click(function () {
+      $("#first-learn-more-container").css("opacity", "0");
+      $("#fourth-safety-card-right").css("display", "none");
+      $("#first-hidden-card").css("display", "flex");
+    });
+    $("#first-hidden-button").click(function () {
+      $("#first-learn-more-container").css("opacity", "1");
+      $("#first-hidden-card").css("display", "none");
+      $("#fourth-safety-card-right").css("display", "flex");
+    });
+    // click second learn more button. make the learn more visible full screen
+    $("#second-learn-more-container").click(function () {
+      $("#second-learn-more-container").css("opacity", "0");
+      $("#fifth-safety-card-right").css("display", "none");
+      $("#second-hidden-card").css("display", "flex");
+    });
+    $("#second-hidden-button").click(function () {
+      $("#second-learn-more-container").css("opacity", "1");
+      $("#second-hidden-card").css("display", "none");
+      $("#fifth-safety-card-right").css("display", "flex");
+    });
+    // click third learn more button. make the learn more visible full screen
+    $("#third-learn-more-container").click(function () {
+      $("#third-learn-more-container").css("opacity", "0");
+      $("#sixth-safety-card-right").css("display", "none");
+      $("#third-hidden-card").css("display", "flex");
+    });
+    $("#third-hidden-button").click(function () {
+      $("#third-learn-more-container").css("opacity", "1");
+      $("#third-hidden-card").css("display", "none");
+      $("#sixth-safety-card-right").css("display", "flex");
+    });
+    // click fourth learn more button. make the learn more visible full screen
+    $("#fourth-learn-more-container").click(function () {
+      $("#fourth-learn-more-container").css("opacity", "0");
+      $("#seventh-safety-card-right").css("display", "none");
+      $("#fourth-hidden-card").css("display", "flex");
+    });
+    $("#fourth-hidden-button").click(function () {
+      $("#fourth-learn-more-container").css("opacity", "1");
+      $("#fourth-hidden-card").css("display", "none");
+      $("#seventh-safety-card-right").css("display", "flex");
+    });
+    // click fifth learn more button. make the learn more visible full screen
+    $("#fifth-learn-more-container").click(function () {
+      $("#fifth-learn-more-container").css("opacity", "0");
+      $("#eigth-safety-card-right").css("display", "none");
+      $("#fifth-hidden-card").css("display", "flex");
+    });
+    $("#fifth-hidden-button").click(function () {
+      $("#fifth-learn-more-container").css("opacity", "1");
+      $("#fifth-hidden-card").css("display", "none");
+      $("#eigth-safety-card-right").css("display", "flex");
+    });
+    // click sixth learn more button. make the learn more visible full screen
+    $("#sixth-learn-more-container").click(function () {
+      $("#sixth-learn-more-container").css("opacity", "0");
+      $("#ninth-safety-card-right").css("display", "none");
+      $("#sixth-hidden-card").css("display", "flex");
+    });
+    $("#sixth-hidden-button").click(function () {
+      $("#sixth-learn-more-container").css("opacity", "1");
+      $("#sixth-hidden-card").css("display", "none");
+      $("#ninth-safety-card-right").css("display", "flex");
+    });
+    // Monthly-Annually price card toggle
+    $("#monthly").click(function () {
+      $("#annually-cards").css("display", "none");
+      $("#monthly-cards").css("display", "flex");
+      $("#annually").css("color", "rgb(235, 235, 235)");
+      $("#annually").css("background-color", "black");
+      $("#annually").css("border", "1px solid white");
+      $("#monthly").css("color", "black");
+      $("#monthly").css("background-color", "rgb(235, 235, 235)");
+    })
+    $("#annually").click(function () {
+      $("#monthly-cards").css("display", "none");
+      $("#annually-cards").css("display", "flex");
+      $("#annually").css("color", "black");
+      $("#annually").css("background-color", "rgb(235, 235, 235)");
+      $("#monthly").css("color", "rgb(235, 235, 235)");
+      $("#monthly").css("background-color", "black");
+      $("#monthly").css("border", "1px solid white");
+    })
+  });
+</script>
+<!-- script tags needed for mobile icon animation -->
+<script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+</script>
+<script>
+  $(".lock").click(function () {
+    $(this).toggleClass("unlocked");
+  });
+</script>
+
 </html>

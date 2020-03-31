@@ -1,0 +1,112 @@
+.price-section {
+  background-color: rgb(4.5, 12.5, 19);
+}
+.pricing-header-section {
+  background-image: linear-gradient(black, rgb(4.5, 12.5, 19));
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+}
+.pricing-header {
+  font-size: 56px;
+  margin-bottom: 3vh;
+}
+.pricing-subheader {
+  font-size: 25px;
+  margin-bottom: 6vh;
+}
+#annually {
+  height: auto;
+  padding: 15px;
+  background-color: black;
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+  border-radius: 0px 25px 25px 0px;
+  border: 1px solid white;
+}
+#monthly {
+  height: auto;
+  padding: 15px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px;
+}
+/* Price Cards */
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh auto;
+  margin-bottom: 0px;
+  padding-bottom: 5vh;
+  background-image: linear-gradient(rgb(4.5, 12.5, 19), rgb(9, 25, 38));
+}
+.price-card {
+  height: 697px;
+  width: 525px;
+  padding: 5%;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin: 0px 1vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-icon-container {
+  background-color: white;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  padding: 12.5px;
+}
+.price-icon {
+  width: 75px;
+}
+.quality-type {
+  font-size: 21px;
+}
+.quality-amount {
+  font-size: 75px;
+  margin: 0;
+}
+.line-break {
+  width: 100%;
+  border-bottom: 1px solid white;
+  border-style: ridge;
+}
+.price-info {
+  text-align: center;
+}
+.coming-soon {
+  color: grey;
+}
+.free-trial {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: rgb(1, 123, 217);
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1100px) {
+  .price-card {
+    /* height: 453px; */
+    width: 358px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .price-card {
+    height: auto;
+    width: 100%;
+    margin: 2vh auto;
+  }
+  .pricing-cards {
+    flex-direction: column;
+  }
+}

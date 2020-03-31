@@ -3,9 +3,11 @@
   flex-flow: column nowrap;
   justify-content: center;
   width: 100%;
+  background-color: black;
 }
 .safety-security-header-container {
   height: 60vh;
+  max-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,22 +41,30 @@
   height: 100%;
   border-radius: 0px 30px 30px 0px;
   background-color: rgb(1, 123, 217);
+  padding: 1vh 1vw;
 }
 .safety-card-left-container {
   width: 90%;
-  height: 60%;
+  /* height: 60%; */
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-around;
+  position: relative;
 }
 .safety-left-header {
+  text-align: center;
   font-size: 56px;
 }
 .safety-left-text {
-  font-size: 19px;
+  font-size: 25px;
   width: 80%;
   text-align: left;
+}
+#security-card-left-text {
+  line-height: 28px;
+  width: 90%;
+  text-align: center;
 }
 .card-icon {
   width: 400px;
@@ -68,6 +78,7 @@
     transform: rotateY(0deg);
   }
 }
+
 #first-safety-card-left {
   background-color: rgb(9, 25, 38);
 }
@@ -88,7 +99,249 @@
 #third-safety-card-right {
   background: lightblue;
 }
+#fifth-safety-card-left {
+  background-color: lightcoral;
+}
+#fifth-safety-card-right {
+  background-color: whitesmoke;
+}
+#sixth-safety-card-left {
+  background-color: rgb(1, 123, 217);
+}
+#sixth-safety-card-right {
+  background-color: lightblue;
+}
+#seventh-safety-card-left {
+  background-color: rgb(9, 25, 38);
+}
+#seventh-safety-card-right {
+  background-color: rgb(1, 123, 217);
+}
+#eigth-safety-card-left {
+  background-color: lightcoral;
+}
+#eigth-safety-card-right {
+  background-color: whitesmoke;
+}
+#ninth-safety-card-left {
+  background-color: rgb(1, 123, 217);
+}
+#ninth-safety-card-right {
+  background-color: lightblue;
+}
+.learn-more-container {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-left: 15px;
+}
+.learn-more-container i {
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#first-more-button {
+  color: rgb(1, 123, 217);
+  border: 1px solid rgb(1, 123, 217);
+  background-color: black;
+}
+#first-more-button:hover {
+  color: black;
+  background-color: rgb(1, 123, 217);
+}
+#first-learn-more-span {
+  color: rgb(1, 123, 217);
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.safety-card-hidden {
+  background-color: rgb(9, 25, 38);
+  height: 100%;
+  width: 50%;
+  padding: 5%;
+  border-radius: 0px 30px 30px 0px;
+}
+.hidden-content-container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hidden-header {
+  font-size: 41px;
+}
+.hidden-text {
+  font-size: 21px;
+}
+#first-hidden-card {
+  display: none;
+  background-color: rgb(9, 25, 38);
+}
+#first-hidden-button {
+  transform: rotate(45deg);
+  color: rgb(1, 123, 217);
+  border: 1px solid rgb(1, 123, 217);
+  background-color: black;
+}
+#first-hidden-button:hover {
+  color: black;
+  background-color: rgb(1, 123, 217);
+}
+#second-more-button {
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  background-color: lightcoral;
+}
+#second-more-button:hover {
+  color: lightcoral;
+  background-color: whitesmoke;
+}
+#second-learn-more-span {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#second-hidden-card {
+  display: none;
+  background-color: lightcoral;
+}
+#second-hidden-button {
+  transform: rotate(45deg);
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  background-color: lightcoral;
+}
+#second-hidden-button:hover {
+  color: lightcoral;
+  background-color: whitesmoke;
+}
+#third-more-button {
+  color: lightblue;
+  border: 1px solid lightblue;
+  background-color: rgb(1, 123, 217);
+}
+#third-more-button:hover {
+  color: rgb(1, 123, 217);
+  background-color: lightblue;
+}
+#third-learn-more-span {
+  color: lightblue;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#third-hidden-card {
+  display: none;
+  background-color: rgb(1, 123, 217);
+}
+#third-hidden-button {
+  transform: rotate(45deg);
+  color: lightblue;
+  border: 1px solid lightblue;
+  background-color: rgb(1, 123, 217);
+}
+#third-hidden-button:hover {
+  color: rgb(1, 123, 217);
+  background-color: lightblue;
+}
+#fourth-more-button {
+  color: rgb(1, 123, 217);
+  border: 1px solid rgb(1, 123, 217);
+  background-color: rgb(9, 25, 38));
+}
+#fourth-more-button:hover {
+  color: rgb(9, 25, 38);
+  background-color: rgb(1, 123, 217);
+}
+#fourth-learn-more-span {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#fourth-hidden-card {
+  display: none;
+  background-color: rgb(9, 25, 38);
+}
+#fourth-hidden-button {
+  transform: rotate(45deg);
+  color: rgb(1, 123, 217);
+  border: 1px solid rgb(1, 123, 217);
+  background-color: rgb(9, 25, 38);
+}
+#fourth-hidden-button:hover {
+  color: rgb(9, 25, 38);
+  background-color: rgb(1, 123, 217);
+}
+#fifth-more-button {
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  background-color: lightcoral;
+}
+#fifth-more-button:hover {
+  color: lightcoral;
+  background-color: whitesmoke;
+}
+#fifth-learn-more-span {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#fifth-hidden-card {
+  display: none;
+  background-color: lightcoral;
+}
+#fifth-hidden-button {
+  transform: rotate(45deg);
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  background-color: lightcoral;
+}
+#fifth-hidden-button:hover {
+  color: lightcoral;
+  background-color: whitesmoke;
+}
 
+#sixth-more-button {
+  color: lightblue;
+  border: 1px solid lightblue;
+  background-color: rgb(1, 123, 217));
+}
+#sixth-more-button:hover {
+  color: rgb(1, 123, 217);
+  background-color: lightblue;
+}
+#sixth-learn-more-span {
+  color: lightblue;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#sixth-hidden-card {
+  display: none;
+  background-color: rgb(1, 123, 217);
+}
+#sixth-hidden-button {
+  transform: rotate(45deg);
+  color: lightblue;
+  border: 1px solid lightblue;
+  background-color: rgb(1, 123, 217);
+}
+#sixth-hidden-button:hover {
+  color: rgb(1, 123, 217);
+  background-color: lightblue;
+}
 @media only screen and (max-width: 1100px) {
   .safety-card {
     width: 736px;
@@ -113,6 +366,19 @@
   .card-icon {
     width: 325px;
   }
+  .security-text-breaks {
+    display: none;
+  }
+  .safety-card-hidden {
+    background-color: rgb(9, 25, 38);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0px;
+    z-index: 10;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -135,6 +401,14 @@
 
   .safety-card-left-container {
     width: 90%;
+  }
+  #security-cards {
+    height: 110vh;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .learn-more {
+    bottom: -10%;
   }
 }
 
@@ -160,7 +434,7 @@
     width: 100%;
   }
   .card-icon {
-    width: 300px;
+    width: 275px;
   }
 }
 @media only screen and (max-width: 424px) {
