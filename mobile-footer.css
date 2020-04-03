@@ -1,0 +1,90 @@
+#mobilefooter {
+    display: none;
+    background-color: #000000;
+    width: 100%;
+    padding: 20px 15px 0px 15px;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: white;
+}
+
+.collapsible {
+    width: 100%;
+    border-bottom: 1px solid darkslategrey;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.collapsible:hover {
+    cursor: pointer;
+}
+
+#mobilefooterhead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid darkslategrey;
+    color: lightgrey;
+    font-size: 20px;
+}
+
+#mobilefooterlogo {
+    width: 100px;
+    height: 35px;
+}
+
+.mobilefooterbuttons {
+    height: auto;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: white;
+    background: inherit;
+    border: none;
+}
+
+.collapsibleInfo {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.collapsibleheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.glyphicon-container i {
+    transition-duration: .5s;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+#lastrow {
+    border: none;
+}
+
+.mobile-footer-link {
+    color: #a1a1a6;
+    text-decoration: none;
+}
+
+.mobile-footer-link:hover {
+    text-decoration: underline;
+    color: #f5f5f7;
+}
+
+@media only screen and (max-width: 750px) {
+    #mobilefooter {
+        display: flex;
+    }
+}
