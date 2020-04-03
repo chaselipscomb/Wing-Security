@@ -5,7 +5,8 @@
 
 .footer-large-container {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1050px;
+  padding: 0px 13px;
   margin: 0 auto;
   color: rgb(223,
       223,
@@ -66,6 +67,8 @@
 
 #email-info {
   font-size: 15px;
+  text-decoration: none;
+  color: #a1a1a6;
 }
 
 #right-arrow {
@@ -79,6 +82,15 @@
 
 .footer-links {
   list-style-type: none;
+}
+
+.footer-links-head {
+  color: #f5f5f7;
+  font-weight: 400;
+}
+
+.footer-link {
+  list-style-type: none;
   font-size: 17px;
   color: #a1a1a6;
   text-decoration: none;
@@ -86,9 +98,34 @@
   font-weight: 200;
 }
 
-.footer-links-head {
+.footer-link:hover {
+  text-decoration: underline;
   color: #f5f5f7;
-  font-weight: 400;
+}
+
+.with-love {
+  color: #a1a1a6;
+  font-size: 12px;
+  margin-top: 50px;
+
+}
+
+#newport {
+  color: #2997FF;
+  text-decoration: none;
+}
+
+#copyrightfooter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1030px;
+  margin: 0 auto;
+  border-top: .05px solid darkslategrey;
+  padding: 1% 2%;
+  font-size: 10px;
+  color: #6e6e73;
 }
 
 @media only screen and (max-width:1100px) {
@@ -99,7 +136,7 @@
 }
 
 @media only screen and (max-width:900px) {
-  .footer-links {
+  .footer-link {
     font-size: 14px;
   }
 
@@ -119,6 +156,10 @@
 
   #large-footer-logo {
     width: 125px;
+  }
+
+  .with-love {
+    margin-top: 40px;
   }
 }
 

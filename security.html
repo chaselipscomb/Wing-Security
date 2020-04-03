@@ -7,12 +7,13 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="navigations.css" />
   <link rel="stylesheet" href="video-section.css" />
   <link rel="stylesheet" href="safety-security.css" />
   <link rel="stylesheet" href="pricing.css" />
   <link rel="stylesheet" href="footer-large.css" />
+  <link rel="stylesheet" href="mobile-footer.css" />
 
   <title>Security</title>
   <style>
@@ -89,16 +90,16 @@
         <p class="overview-nav-title">Privacy</p>
       </div>
       <div style="display: none;" class="overview-mobile-dropdown">
-        <a href="#">How It Works</a>
-        <a href="#">FAQ</a>
-        <a href="#">PRIVACY AND SECURITY</a>
-        <a href="#">SUPPORT</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Zero Tolerance</a>
+        <a href="#">Policy</a>
         <a style="border-bottom: none;" href="#">GET EARLY ACCESS</a>
       </div>
     </nav>
     <section class="header-section">
       <div class="header-left-side">
-        <div class="container">
+        <div class="header-privacy-lock">
           <span class="lock"></span>
           <h1 class="header-headline">Privacy</h1>
         </div>
@@ -496,7 +497,7 @@
     </div>
   </section>
 
-  <!-- Laptop-Footer -->
+  <!-- Large-Footer > 750px -->
   <footer class="footer-large">
     <div class="footer-large-container">
       <div class="footer-large-contents">
@@ -504,38 +505,175 @@
             src="https://chaselipscomb.github.io/WingLogo/wlogof.png" alt="Logo" id="large-footer-logo">
           <p id="own-your-time">Own Your Time</p>
           <p id="contact">Contact:</p>
-          <p id="email-info">HELP@GETWINGAPP.COM</p>
+          <a id="email-info" target="blank" href="mailto:help@getwingapp.com">HELP@GETWINGAPP.COM</a>
         </div>
         <div class="footer-content-column">
-          <li class="footer-links"><a class="footer-links-head">Wing</a></li>
-          <li class="footer-links"><a>Support</a></li>
-          <li class="footer-links"><a>FAQ</a></li>
-          <li class="footer-links"><a>Safety & Privacy</a></li>
+          <li class="footer-links"><span class="footer-links-head">Wing</span></li>
+          <li class="footer-links"><a href="#" class="footer-link">Support</a></li>
+          <li class="footer-links"><a href="#" class="footer-link">FAQ</a></li>
+          <li class="footer-links"><a href="#" class="footer-link">Safety & Privacy</a></li>
         </div>
         <div class="footer-content-column">
-          <li class="footer-links"><a class="footer-links-head">Legal</a></li>
-          <li class="footer-links"><a>Terms of Service</a></li>
-          <li class="footer-links"><a>Privacy Policy</a></li>
-          <li class="footer-links"><a>Zero Tolerance Policy</a></li>
+          <li class="footer-links"><span class="footer-links-head">Legal</span></li>
+          <li class="footer-links"><a href="#" class="footer-link">Terms of Service</a></li>
+          <li class="footer-links"><a href="#" class="footer-link">Privacy Policy</a></li>
+          <li class="footer-links"><a href="#" class="footer-link">Zero Tolerance Policy</a></li>
         </div>
         <div class="footer-content-column">
-          <li class="footer-links"><a class="footer-links-head">More</a></li>
-          <li class="footer-links"><a>Wing for Business</a></li>
-          <li class="footer-links"><a>Wing for Partners</a></li>
+          <li class="footer-links"><span class="footer-links-head">More</span></li>
+          <li class="footer-links"><a href="#" class="footer-link">Wing for Business</a></li>
+          <li class="footer-links"><a href="#" class="footer-link">Wing for Partners</a></li>
         </div>
         <div class="footer-content-column" id="content-column-end">
-          <li class="footer-links"><a class="footer-links-head">Follow Us</a></li>
-          <li class="footer-links"><a>Blog</a></li>
-          <li class="footer-links"><a>LinkedIn</a></li>
-          <li class="footer-links"><a>Instagram</a></li>
-          <li class="footer-links"><a>Twitter</a></li>
-          <li class="footer-links"><a>Facebook</a></li>
-          <li class="footer-links"><a>Youtube</a></li>
+          <li class="footer-links"><span class="footer-links-head">Follow Us</span></li>
+          <li class="footer-links"><a href="#" class="footer-link">Blog</a></li>
+          <li class="footer-links"><a href="#" class="footer-link">LinkedIn</a></li>
+          <li class="footer-links"><a href="#" class="footer-link">Instagram</a></li>
+          <li class="footer-links"><a href="#" class="footer-link">Twitter</a></li>
+          <li class="footer-links"><a href="#" class="footer-link">Facebook</a></li>
+          <li class="footer-links"><a href="#" class="footer-link">Youtube</a></li>
+
+        </div>
+      </div>
+      <div>
+        <p class="with-love">Made with <i class="fa fa-heart-o" style="font-size:18px;color:red;"></i>
+          in <a href="https://www.google.com/maps/place/Newport+Beach,+CA" target="blank" id="newport">Newport Beach,
+            CA</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile-Footer -->
+
+  <div id="mobilefooter">
+    <div id="mobilefooterhead">
+      <img class="logo" id="mobilefooterlogo" alt="Wing" src="https://chaselipscomb.github.io/WingLogo/wlogof.png">
+      <span style="margin-left:10px;">
+        Own Your Time
+      </span>
+    </div>
+
+    <div class="collapsible">
+      <div class="collapsibleheader" onclick="wingslider()">
+        <span>Wing</span>
+        <div class="glyphicon-container">
+          <i class="glyphicon glyphicon-remove" id="wing-glyph"></i>
+        </div>
+      </div>
+      <div style="display:none;" id="wingslide">
+
+        <div class="collapsibleInfo">
+          <a href="http://getwingapp.freshdesk.com" target="_blank" class="mobile-footer-link">
+            <span>Support</span>
+          </a>
+          <a href="faq" class="mobile-footer-link">
+            <span>FAQ</span>
+          </a>
+          <a href="safety" class="mobile-footer-link">
+            <span>Safety &amp; Privacy</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="collapsible">
+      <div class="collapsibleheader" onclick="legalslider()">
+        <span>Legal</span>
+        <div class="glyphicon-container">
+          <i class="glyphicon glyphicon-remove" id="legal-glyph"></i>
+        </div>
+      </div>
+      <div style="display:none;" id="legalslide">
+
+        <div class="collapsibleInfo">
+          <a href="terms" class="mobile-footer-link">
+            <span>Terms of Service</span>
+          </a>
+          <a href="privacy" class="mobile-footer-link">
+            <span>Privacy Policy</span>
+          </a>
+          <a href="zerotolerance" class="mobile-footer-link">
+            <span>Zero Tolerance Policy</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="collapsible">
+      <div class="collapsibleheader" onclick="moreslider()">
+        <span>More</span>
+        <div class="glyphicon-container">
+          <i class="glyphicon glyphicon-remove" id="more-glyph"></i>
+        </div>
+      </div>
+      <div style="display:none;" id="moreslide">
+
+        <div class="collapsibleInfo">
+          <a href="forbusiness" class="mobile-footer-link">
+            <span>Wing For Business</span>
+          </a>
+          <a href="partners" class="mobile-footer-link">
+            <span>Wing for Partners</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="collapsible">
+      <div class="collapsibleheader" id="followusrow" onclick="followusslider()">
+        <span>Follow Us</span>
+        <div class="glyphicon-container">
+          <i class="glyphicon glyphicon-remove" id="follow-glyph"></i>
+        </div>
+      </div>
+      <div style="display:none;" id="followusslide">
+        <div class="collapsibleInfo">
+          <a href="https://blog.getwingapp.com" target="_blank" class="mobile-footer-link">
+            <span>Blog</span>
+          </a>
+          <a href="https://www.linkedin.com/company/wing-ai/" target="_blank" class="mobile-footer-link">
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://www.instagram.com/wing.app/" target="_blank" class="mobile-footer-link">
+            <span>Instagram</span>
+          </a>
+          <a href="https://twitter.com/getwingapp" target="_blank" class="mobile-footer-link">
+            <span>Twitter</span>
+          </a>
+          <a href="https://www.facebook.com/wingtechnologies/" target="_blank" class="mobile-footer-link">
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.youtube.com/channel/UCJ-rmgKRB6RjF45N6U9gY-g" target="_blank" class="mobile-footer-link">
+            <span>YouTube</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="collapsible" id="lastrow">
+      <div class="collapsibleheader" onclick="contactslider()">
+        <span>Contact</span>
+        <div class="glyphicon-container">
+          <i class="glyphicon glyphicon-remove" id="contact-glyph"></i>
+        </div>
+      </div>
+      <div style="display:none;" id="contactslide">
+        <div class="collapsibleInfo">
+          <a href="mailto:HELP@GETWINGAPP.COM" target="_blank" class="mobile-footer-link">
+            <span>HELP@GETWINGAPP.COM</span>
+          </a>
+
 
         </div>
       </div>
     </div>
-  </footer>
+  </div>
+
+  <div id="copyrightfooter"
+    style="font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif; font-variant-ligatures: common-ligatures;">
+    © COPYRIGHT 2018-2020 WING AI TECHNOLOGIES, INC. - ALL RIGHTS RESERVED
+  </div>
+
   <!-- <div class="footer-head">
     <img src="https://chaselipscomb.github.io/WingLogo/wlogof.png" alt="Logo" id="large-footer-logo">
     <i class="fa fa-angle-right" id="right-arrow"></i>
@@ -666,6 +804,72 @@
   $(".lock").click(function () {
     $(this).toggleClass("unlocked");
   });
+</script>
+<!-- Mobile-Footer-Slide toggles -->
+<script>
+
+  function wingslider() {
+
+    var x = document.getElementById("wingslide");
+    if (x.style.display === "none") {
+      $("#wingslide").slideDown();
+      console.log("sliderglyph")
+      $("#wing-glyph").css("transform", "rotate(0deg)")
+    } else {
+      $("#wingslide").slideUp();
+      $("#wing-glyph").css("transform", "rotate(45deg)")
+    }
+
+  }
+  function legalslider() {
+
+    var x = document.getElementById("legalslide");
+    if (x.style.display === "none") {
+      $("#legalslide").slideDown();
+      $("#legal-glyph").css("transform", "rotate(0deg)")
+    } else {
+      $("#legalslide").slideUp();
+      $("#legal-glyph").css("transform", "rotate(45deg)")
+    }
+
+  }
+  function moreslider() {
+
+    var x = document.getElementById("moreslide");
+    if (x.style.display === "none") {
+      $("#moreslide").slideDown();
+      $("#more-glyph").css("transform", "rotate(0deg)")
+    } else {
+      $("#moreslide").slideUp();
+      $("#more-glyph").css("transform", "rotate(45deg)")
+    }
+
+  }
+  function followusslider() {
+
+    var x = document.getElementById("followusslide");
+    if (x.style.display === "none") {
+      $("#followusslide").slideDown();
+      $("#follow-glyph").css("transform", "rotate(0deg)")
+    } else {
+      $("#followusslide").slideUp();
+      $("#follow-glyph").css("transform", "rotate(45deg)")
+    }
+
+  }
+  function contactslider() {
+
+    var x = document.getElementById("contactslide");
+    if (x.style.display === "none") {
+      $("#contactslide").slideDown();
+      $("#contact-glyph").css("transform", "rotate(0deg)")
+    } else {
+      $("#contactslide").slideUp();
+      $("#contact-glyph").css("transform", "rotate(45deg)")
+    }
+
+  }
+
 </script>
 
 </html>

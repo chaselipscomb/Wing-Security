@@ -6,15 +6,18 @@
   background-color: rgb(9, 25, 38);
   padding: 50px 10vw 50px 10vw;
 }
+
 .header-left-side {
   display: flex;
   flex-flow: column;
   width: 535px;
 }
+
 #lock-icon {
   color: rgb(255, 255, 255);
   font-size: 60px;
 }
+
 .header-headline {
   display: inline-block;
   margin: 0 0 0 10px;
@@ -26,6 +29,7 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
 }
+
 .header-intro {
   margin: 0;
   font-size: 28px;
@@ -35,22 +39,26 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
 }
+
 .video-side {
   margin: 7vh auto 5vh auto;
   width: 500px;
   display: flex;
 }
+
 iframe {
   height: 300px;
   width: 500px;
 }
-.container {
+
+.header-privacy-lock {
   display: flex;
   width: 330px;
   align-items: baseline;
   justify-content: center;
   min-height: 100px;
 }
+
 .lock {
   /* margin-top: 10px; */
   width: 48px;
@@ -97,10 +105,13 @@ iframe {
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
+
 .lock:before {
   content: "";
   display: block;
-  width: 20px;
+  /* width: 20px;
+  height: 20px; */
+  width: 32px;
   height: 20px;
   bottom: 100%;
   position: absolute;
@@ -113,86 +124,106 @@ iframe {
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
+
 /* Locked Hover */
 .lock:hover:before {
   height: 24px;
 }
+
 /* Unlocked */
 .unlocked {
   transform: rotate(10deg);
 }
+
 .unlocked:before {
   bottom: 130%;
   left: 31%;
   margin-left: -23px;
   transform: rotate(-45deg);
 }
+
 .unlocked,
 .unlocked:before {
   border-color: white;
 }
+
 .unlocked:after {
   background: white;
 }
+
 /* Unlocked Hover */
 .unlocked:hover {
   transform: rotate(3deg);
 }
+
 .unlocked:hover:before {
   height: 20px;
   left: 40%;
   bottom: 124%;
   transform: rotate(-30deg);
 }
+
 @media only screen and (max-width: 1024px) {
   .header-section {
     height: 725px;
   }
 }
+
 @media only screen and (max-width: 660px) {
   .header-section {
     padding: 10vh 1vw 10vh;
     height: auto;
   }
+
   .header-left-side {
     margin: auto;
     width: 100%;
   }
-  .container {
+
+  .header-privacy-lock {
     margin: auto;
     width: 100%;
   }
+
   .header-intro {
     margin: 0 auto;
     font-size: 18px;
   }
+
   .video-side {
     width: 350px;
     height: 210px;
   }
+
   iframe {
     width: 350px;
     height: 210px;
   }
 }
+
 @media only screen and (max-width: 424px) {
   .header-intro {
     font-size: 15px;
   }
+
   .header-headline {
     font-size: 65px;
   }
+
   .video-side {
     width: 290px;
     height: 174px;
   }
+
   iframe {
     width: 290px;
     height: 174px;
   }
-  .container {
+
+  .header-privacy-lock {
     margin-bottom: -1vh;
   }
+
   .header-section {
     /* height: 75vh; */
   }
