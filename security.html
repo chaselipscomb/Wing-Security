@@ -7,7 +7,6 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="navigations.css" />
   <link rel="stylesheet" href="video-section.css" />
   <link rel="stylesheet" href="safety-security.css" />
@@ -559,7 +558,7 @@
       <div class="collapsibleheader" onclick="wingslider()">
         <span>Wing</span>
         <div class="glyphicon-container">
-          <i class="glyphicon glyphicon-remove" id="wing-glyph"></i>
+          <i class="fa fa-plus" id="wing-glyph"></i>
         </div>
       </div>
       <div style="display:none;" id="wingslide">
@@ -582,7 +581,7 @@
       <div class="collapsibleheader" onclick="legalslider()">
         <span>Legal</span>
         <div class="glyphicon-container">
-          <i class="glyphicon glyphicon-remove" id="legal-glyph"></i>
+          <i class="fa fa-plus" id="legal-glyph"></i>
         </div>
       </div>
       <div style="display:none;" id="legalslide">
@@ -605,7 +604,7 @@
       <div class="collapsibleheader" onclick="moreslider()">
         <span>More</span>
         <div class="glyphicon-container">
-          <i class="glyphicon glyphicon-remove" id="more-glyph"></i>
+          <i class="fa fa-plus" id="more-glyph"></i>
         </div>
       </div>
       <div style="display:none;" id="moreslide">
@@ -625,7 +624,7 @@
       <div class="collapsibleheader" id="followusrow" onclick="followusslider()">
         <span>Follow Us</span>
         <div class="glyphicon-container">
-          <i class="glyphicon glyphicon-remove" id="follow-glyph"></i>
+          <i class="fa fa-plus" id="follow-glyph"></i>
         </div>
       </div>
       <div style="display:none;" id="followusslide">
@@ -655,7 +654,7 @@
       <div class="collapsibleheader" onclick="contactslider()">
         <span>Contact</span>
         <div class="glyphicon-container">
-          <i class="glyphicon glyphicon-remove" id="contact-glyph"></i>
+          <i class="fa fa-plus" id="contact-glyph"></i>
         </div>
       </div>
       <div style="display:none;" id="contactslide">
@@ -805,7 +804,6 @@
     $(this).toggleClass("unlocked");
   });
 </script>
-
 <!-- Mobile-Footer-Slide toggles -->
 <script>
 
@@ -815,10 +813,10 @@
     if (x.style.display === "none") {
       $("#wingslide").slideDown();
       console.log("sliderglyph")
-      $("#wing-glyph").css("transform", "rotate(0deg)")
+      $("#wing-glyph").css("transform", "rotate(45deg)")
     } else {
       $("#wingslide").slideUp();
-      $("#wing-glyph").css("transform", "rotate(45deg)")
+      $("#wing-glyph").css("transform", "rotate(0deg)")
     }
 
   }
@@ -827,10 +825,10 @@
     var x = document.getElementById("legalslide");
     if (x.style.display === "none") {
       $("#legalslide").slideDown();
-      $("#legal-glyph").css("transform", "rotate(0deg)")
+      $("#legal-glyph").css("transform", "rotate(45deg)")
     } else {
       $("#legalslide").slideUp();
-      $("#legal-glyph").css("transform", "rotate(45deg)")
+      $("#legal-glyph").css("transform", "rotate(0deg)")
     }
 
   }
@@ -839,10 +837,10 @@
     var x = document.getElementById("moreslide");
     if (x.style.display === "none") {
       $("#moreslide").slideDown();
-      $("#more-glyph").css("transform", "rotate(0deg)")
+      $("#more-glyph").css("transform", "rotate(45deg)")
     } else {
       $("#moreslide").slideUp();
-      $("#more-glyph").css("transform", "rotate(45deg)")
+      $("#more-glyph").css("transform", "rotate(0deg)")
     }
 
   }
@@ -851,10 +849,10 @@
     var x = document.getElementById("followusslide");
     if (x.style.display === "none") {
       $("#followusslide").slideDown();
-      $("#follow-glyph").css("transform", "rotate(0deg)")
+      $("#follow-glyph").css("transform", "rotate(45deg)")
     } else {
       $("#followusslide").slideUp();
-      $("#follow-glyph").css("transform", "rotate(45deg)")
+      $("#follow-glyph").css("transform", "rotate(0deg)")
     }
 
   }
@@ -863,10 +861,10 @@
     var x = document.getElementById("contactslide");
     if (x.style.display === "none") {
       $("#contactslide").slideDown();
-      $("#contact-glyph").css("transform", "rotate(0deg)")
+      $("#contact-glyph").css("transform", "rotate(45deg)")
     } else {
       $("#contactslide").slideUp();
-      $("#contact-glyph").css("transform", "rotate(45deg)")
+      $("#contact-glyph").css("transform", "rotate(0deg)")
     }
 
   }

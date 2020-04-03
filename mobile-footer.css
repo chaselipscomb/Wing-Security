@@ -64,7 +64,6 @@
 }
 
 .glyphicon-container i {
-    transform: rotate(45deg);
     transition-duration: .5s;
     font-size: 15px;
     margin-right: 10px;
