@@ -37,22 +37,22 @@
   <nav class="nav-large">
     <div class="nav-contents">
       <div class="nav-contents-div">
-        <a href="#">
+        <a href="./">
           <img id="nav-large-logo" src="https://chaselipscomb.github.io/WingLogo/wlogof.png" alt="Logo" />
         </a>
         <img id="nav-large-note" src="wing-logo-not.svg" alt="Note" />
       </div>
-      <a href="#">HOW IT WORKS</a>
-      <a href="#">FAQ</a>
-      <a href="#">PRIVACY AND SECURITY</a>
-      <a href="#">SUPPORT</a>
-      <a href="#">GET EARLY ACCESS</a>
+      <a href="#howitworks">HOW IT WORKS</a>
+      <a href="faq">FAQ</a>
+      <a href="safety">PRIVACY AND SECURITY</a>
+      <a href="https://getwingapp.freshdesk.com/support/home" target="blank">SUPPORT</a>
+      <a href="#navBar">GET EARLY ACCESS</a>
     </div>
   </nav>
   <nav class="nav-mobile">
     <div class="nav-mobile-header">
       <div class="nav-mobile-header-div">
-        <a href="#">
+        <a href="./">
           <img id="nav-mobile-logo" src="https://chaselipscomb.github.io/WingLogo/wlogof.png" alt="Logo" />
         </a>
         <img id="nav-mobile-note" src="wing-logo-not.svg" alt="Note" />
@@ -64,11 +64,11 @@
       </div>
     </div>
     <div style="display:none;" class="nav-dropdown">
-      <a href="#">How It Works</a>
-      <a href="#">FAQ</a>
-      <a href="#">PRIVACY AND SECURITY</a>
-      <a href="#">SUPPORT</a>
-      <a style="border-bottom: none;" href="#">GET EARLY ACCESS</a>
+      <a href="#howitworks">How It Works</a>
+      <a href="faq">FAQ</a>
+      <a href="safety">PRIVACY AND SECURITY</a>
+      <a href="https://getwingapp.freshdesk.com/support/home" target="blank">SUPPORT</a>
+      <a style="border-bottom: none;" href="#navBar">GET EARLY ACCESS</a>
     </div>
   </nav>
   <!-- Navigation End -->
@@ -78,10 +78,12 @@
       <p class="overview-nav-title">Privacy</p>
       <div class="overview-nav-list">
         <p class="overview-nav-text" id="overview-nav-overview">Overview</p>
-        <a href="#" class="overview-nav-text">Terms of Service</a>
-        <a href="#" class="overview-nav-text">Privacy Policy</a>
-        <a href="#" class="overview-nav-text">Zero Tolerance</a>
-        <a href="#" class="overview-nav-text">Policy</a>
+        <a href="terms" class="overview-nav-text">Terms of Service</a>
+        <a href="privacy" class="overview-nav-text">Privacy Policy</a>
+        <a href="zerotolerance" class="overview-nav-text">Zero Tolerance</a>
+        <a href="forbusiness" class="overview-nav-text">Business</a>
+        <a href="partners" class="overview-nav-text">Partners</a>
+
       </div>
     </nav>
     <nav class="overview-nav-mobile">
@@ -90,25 +92,42 @@
         <p class="overview-nav-title">Privacy</p>
       </div>
       <div style="display: none;" class="overview-mobile-dropdown">
-        <a href="#">How It Works</a>
-        <a href="#">FAQ</a>
-        <a href="#">PRIVACY AND SECURITY</a>
-        <a href="#">SUPPORT</a>
-        <a style="border-bottom: none;" href="#">GET EARLY ACCESS</a>
+        <a href="terms">Terms of Service</a>
+        <a href="privacy">Privacy Policy</a>
+        <a href="zerotolerance">Zero Tolerance</a>
+        <a href="forbusiness">Wing For Business</a>
+        <a style="border-bottom: none;" href="partners">Wing For Partners</a>
       </div>
     </nav>
     <section class="header-section">
       <div class="header-left-side">
-        <div class="container">
+        <h1 class="header-headline">Privacy</h1>
+        <div class="header-lock-ptags">
           <span class="lock"></span>
-          <h1 class="header-headline">Privacy</h1>
+          <div class="header-intro-ptags">
+            <p class="header-intro">Privacy is a Core Value at Wing.</p>
+            <p class="header-intro">Learn more in this interview with our CEO:</p>
+          </div>
         </div>
-        <p class="header-intro">Privacy is a Core Value at Wing.</p>
-        <p class="header-intro">Learn more in this interview with our CEO:</p>
       </div>
-      <div class="video-side">
+      <!-- <div class="video-side">
         <iframe src="https://www.youtube.com/embed/CR_ALkfev9g"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="border:none"
+          allowfullscreen></iframe>
+      </div> -->
+      <div class="karan-img-container">
+        <img src="icons/video-karan.png" alt="Video-Modal" class="video-side">
+        <!-- <button class="modal-play" id="myBtn">Open Modal</button> -->
+        <i class="fa fa-play-circle-o" id="myBtn"></i>
+      </div>
+      <div id="myModal" class="modal" style="display: none;">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            style="border:none; width: 100%; height: 100%;" id="privacy-iframe" allowfullscreen></iframe>
+        </div>
       </div>
     </section>
   </div>
@@ -509,29 +528,36 @@
         </div>
         <div class="footer-content-column">
           <li class="footer-links"><span class="footer-links-head">Wing</span></li>
-          <li class="footer-links"><a href="#" class="footer-link">Support</a></li>
-          <li class="footer-links"><a href="#" class="footer-link">FAQ</a></li>
-          <li class="footer-links"><a href="#" class="footer-link">Safety & Privacy</a></li>
+          <li class="footer-links"><a href="https://getwingapp.freshdesk.com/support/home" target="blank"
+              class="footer-link">Support</a></li>
+          <li class="footer-links"><a href="faq" class="footer-link">FAQ</a></li>
+          <li class="footer-links"><a href="safety" class="footer-link">Safety & Privacy</a></li>
         </div>
         <div class="footer-content-column">
           <li class="footer-links"><span class="footer-links-head">Legal</span></li>
-          <li class="footer-links"><a href="#" class="footer-link">Terms of Service</a></li>
-          <li class="footer-links"><a href="#" class="footer-link">Privacy Policy</a></li>
-          <li class="footer-links"><a href="#" class="footer-link">Zero Tolerance Policy</a></li>
+          <li class="footer-links"><a href="terms" class="footer-link">Terms of Service</a></li>
+          <li class="footer-links"><a href="privacy" class="footer-link">Privacy Policy</a></li>
+          <li class="footer-links"><a href="zerotolerance" class="footer-link">Zero Tolerance Policy</a></li>
         </div>
         <div class="footer-content-column">
           <li class="footer-links"><span class="footer-links-head">More</span></li>
-          <li class="footer-links"><a href="#" class="footer-link">Wing for Business</a></li>
-          <li class="footer-links"><a href="#" class="footer-link">Wing for Partners</a></li>
+          <li class="footer-links"><a href="forbusiness" class="footer-link">Wing for Business</a></li>
+          <li class="footer-links"><a href="partners" class="footer-link">Wing for Partners</a></li>
         </div>
         <div class="footer-content-column" id="content-column-end">
           <li class="footer-links"><span class="footer-links-head">Follow Us</span></li>
-          <li class="footer-links"><a href="#" class="footer-link">Blog</a></li>
-          <li class="footer-links"><a href="#" class="footer-link">LinkedIn</a></li>
-          <li class="footer-links"><a href="#" class="footer-link">Instagram</a></li>
-          <li class="footer-links"><a href="#" class="footer-link">Twitter</a></li>
-          <li class="footer-links"><a href="#" class="footer-link">Facebook</a></li>
-          <li class="footer-links"><a href="#" class="footer-link">Youtube</a></li>
+          <li class="footer-links"><a href="https://blog.getwingapp.com/" target="blank" class="footer-link">Blog</a>
+          </li>
+          <li class="footer-links"><a href="https://www.linkedin.com/company/wing-ai/" target="blank"
+              class="footer-link">LinkedIn</a></li>
+          <li class="footer-links"><a href="https://www.instagram.com/wing.app/" target="blank"
+              class="footer-link">Instagram</a></li>
+          <li class="footer-links"><a href="https://twitter.com/getwingapp" target="blank"
+              class="footer-link">Twitter</a></li>
+          <li class="footer-links"><a href="https://www.facebook.com/wingtechnologies/" target="blank"
+              class="footer-link">Facebook</a></li>
+          <li class="footer-links"><a href="https://www.youtube.com/channel/UCJ-rmgKRB6RjF45N6U9gY-g" target="blank"
+              class="footer-link">Youtube</a></li>
 
         </div>
       </div>
@@ -869,6 +895,35 @@
 
   }
 
+</script>
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  // When the user clicks the button, open the modal 
+  // change iframe src to autoplay the youtube video
+  btn.onclick = function () {
+    modal.style.display = "block";
+    document.getElementById("privacy-iframe").src = "https://www.youtube.com/embed/CR_ALkfev9g?autoplay=1";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+    document.getElementById("privacy-iframe").src = "";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+      document.getElementById("privacy-iframe").src = "";
+
+    }
+  }
 </script>
 
 </html>
