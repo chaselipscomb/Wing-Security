@@ -1,7 +1,7 @@
 /* Header Section */
 .header-section {
   margin: auto;
-  /* height: 800px; */
+  height: 700px;
   max-width: 1024px;
   background-color: rgb(9, 25, 38);
   padding: 50px 10vw 50px 10vw;
@@ -188,9 +188,9 @@ iframe {
 }
 
 @media only screen and (max-width: 1024px) {
-  .header-section {
-    height: 725px;
-  }
+  /* .header-section {
+  height: 725px;
+} */
 }
 
 @media only screen and (max-width: 660px) {
