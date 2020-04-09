@@ -26,8 +26,7 @@
     body {
       background-color: black;
       color: white;
-      font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue",
-        "Helvetica", "Arial", sans-serif;
+      font-family: 'Montserrat', sans-serif;
     }
   </style>
 </head>
@@ -137,6 +136,7 @@
     <div class="safety-security-header-container">
       <header class="safety-security-header">Designed for your Safety</header>
     </div>
+    <!-- first card -->
     <div class="safety-card">
       <div class="safety-card-left" id="first-safety-card-left">
         <div class="safety-card-left-container">
@@ -150,277 +150,323 @@
             industry-leading background check provider, CheckR, at both the
             State & Federal level.
           </p>
+          <div class="learn-more-container" id="first-learn-more-container">
+            <!-- <i class="fa fa-plus" id="first-more-button" aria-hidden="true"></i> -->
+            <i class="fa fa-plus-circle" id="first-more-button" aria-hidden="true"></i>
+            <span id="first-learn-more-span">Learn More</span>
+          </div>
         </div>
       </div>
       <div class="safety-card-right" id="first-safety-card-right">
         <img src="icons/network.png" alt="network.png" class="card-icon"" />
         </div>
+        <div class=" safety-card-hidden" id="first-hidden-card">
+        <div class="hidden-content-container">
+          <span class="hidden-button-container"><i class="fa fa-plus-circle" id="first-hidden-button"
+              aria-hidden="true"></i></span>
+          <h2 class="hidden-header">Partners</h2>
+          <p class="hidden-text">
+            Partnership quote ..
+          </p>
+        </div>
       </div>
-      <div class=" safety-card">
-        <div class="safety-card-left" id="second-safety-card-left">
-          <div class="safety-card-left-container">
-            <header class="safety-left-header">Operations Team</header>
-            <br />
+    </div>
+    <!-- second card -->
+    <div class=" safety-card">
+      <div class="safety-card-left" id="second-safety-card-left">
+        <div class="safety-card-left-container">
+          <header class="safety-left-header">Operations Team</header>
+          <br />
 
-            <p class="safety-left-text">
-              Wing staffs a large operations team, and trains all of our staff
-              to be trained at issues that may arise regarding safety.<br /><br />
-              Find us in the "Help" section of your app, or using the customer
-              service chat system on our website - we're here to help around the
-              clock.
-            </p>
+          <p class="safety-left-text">
+            Wing staffs a large operations team, and trains all of our staff
+            to be trained at issues that may arise regarding safety.<br /><br />
+            Find us in the "Help" section of your app, or using the customer
+            service chat system on our website - we're here to help around the
+            clock.
+          </p>
+          <div class="learn-more-container" id="second-learn-more-container">
+            <!-- <i class="fa fa-plus" id="second-more-button" aria-hidden="true"></i> -->
+            <i class="fa fa-plus-circle" id="second-more-button" aria-hidden="true"></i>
+            <span id="second-learn-more-span">Learn More</span>
           </div>
         </div>
-        <div class="safety-card-right" id="second-safety-card-right">
-          <img src="icons/team.png" alt="team.png" class="card-icon" />
+      </div>
+      <div class="safety-card-right" id="second-safety-card-right">
+        <img src="icons/team.png" alt="team.png" class="card-icon" />
+      </div>
+      <div class="safety-card-hidden" id="second-hidden-card">
+        <div class="hidden-content-container">
+          <span class="hidden-button-container"><i class="fa fa-plus-circle" id="second-hidden-button"
+              aria-hidden="true"></i></span>
+          <h2 class="hidden-header">Operations</h2>
+          <p class="hidden-text">
+            Operations quote ..
+          </p>
         </div>
       </div>
-      <div class="safety-card">
-        <div class="safety-card-left" id="third-safety-card-left">
-          <div class="safety-card-left-container">
-            <header class="safety-left-header">Insured!</header>
+    </div>
+
+    <div class="safety-card">
+      <div class="safety-card-left" id="third-safety-card-left">
+        <div class="safety-card-left-container">
+          <header class="safety-left-header">Insured!</header>
+          <br />
+          <p class="safety-left-text">
+            Any requests perfomed by our partners are fully insured to up $1M!
             <br />
-            <p class="safety-left-text">
-              Any requests perfomed by our partners are fully insured to up $1M!
-              <br />
-              <br />
-              In the event anything happens while tasks are being performed, you
-              can have the peace of mind that everything is covered!
-            </p>
-          </div>
-        </div>
-        <div class="safety-card-right" id="third-safety-card-right">
-          <img src="icons/shield.png" alt="shield.png" class="card-icon" />
-        </div>
-      </div>
-      <!-- Security Card 1 -->
-      <div class="safety-card" id="security-cards">
-        <div class="safety-card-left" id="fourth-safety-card-left">
-          <div class="safety-card-left-container">
-            <header class="safety-left-header">
-              Securing Your Data in Transit
-            </header>
-            <br class="security-text-breaks" />
-            <br class="security-text-breaks" />
             <br />
-            <p class="safety-left-text" id="security-card-left-text">
-              All data in transit between you, your network, and Wing, its
-              technologies, its servers, partners, providers, and all key
-              stakeholders are encrypted via SSL using 2048-bit certificates.
-            </p>
-            <div class="learn-more-container" id="first-learn-more-container">
-              <i class="fa fa-plus" id="first-more-button" aria-hidden="true"></i>
-              <span id="first-learn-more-span">Learn More</span>
-            </div>
-          </div>
-        </div>
-        <div class="safety-card-right" id="fourth-safety-card-right">
-          <img src="icons/lock.png" alt="lock.png" class="card-icon" />
-        </div>
-        <div class="safety-card-hidden" id="first-hidden-card">
-          <div class="hidden-content-container">
-            <div class="learn-more-container" id="first-learn-more-container">
-              <i class="fa fa-plus" id="first-hidden-button" aria-hidden="true"></i>
-            </div>
-            <h2 class="hidden-header">Securing Your Data</h2>
-            <p class="hidden-text">
-              This means, third parties can't "listen in" or "packet sniff" as
-              your data is in transit over the network.
-            </p>
+            In the event anything happens while tasks are being performed, you
+            can have the peace of mind that everything is covered!
+          </p>
+          <div class="learn-more-container" id="third-learn-more-container">
+            <i class="fa fa-plus-circle" id="third-more-button" aria-hidden="true"></i>
+            <span id="third-learn-more-span">Learn More</span>
           </div>
         </div>
       </div>
-      <!-- Security Card 2 -->
-      <div class="safety-card" id="security-cards">
-        <div class="safety-card-left" id="fifth-safety-card-left">
-          <div class="safety-card-left-container">
-            <header class="safety-left-header">
-              Bank-Level Security
-            </header>
-            <br class="security-text-breaks" />
-            <br class="security-text-breaks" />
-            <br />
-            <p class="safety-left-text" id="security-card-left-text">
-              Within our systems, all your data is stored using AES-256
-              encryption with a uniquely derived key for each user following the
-              recommendations of NIST S.P. 800-132. We encrypt all personally
-              identifiable data.
-            </p>
-            <div class="learn-more-container" id="second-learn-more-container">
-              <i class="fa fa-plus" id="second-more-button" aria-hidden="true"></i>
-              <span id="second-learn-more-span">Learn More</span>
-            </div>
-          </div>
+      <div class="safety-card-right" id="third-safety-card-right">
+        <img src="icons/shield.png" alt="shield.png" class="card-icon" />
+      </div>
+      <div class="safety-card-hidden" id="third-hidden-card">
+        <div class="hidden-content-container">
+          <span class="hidden-button-container"><i class="fa fa-plus-circle" id="third-hidden-button"
+              aria-hidden="true"></i></span>
+          <h2 class="hidden-header">Insured</h2>
+          <p class="hidden-text">
+            Insurance quote ..
+          </p>
         </div>
-        <div class="safety-card-right" id="fifth-safety-card-right">
-          <img src="icons/pay.png" alt="pay.png" class="card-icon" />
-        </div>
-        <div class="safety-card-hidden" id="second-hidden-card">
-          <div class="hidden-content-container">
-            <div class="learn-more-container" id="second-learn-more-container">
-              <i class="fa fa-plus" id="second-hidden-button" aria-hidden="true"></i>
-            </div>
-            <h2 class="hidden-header">Bank-Level</h2>
-            <p class="hidden-text">
-              This means, even in the unlikely event our systems are
-              compromised, a malicious actor cannot read any data.
-            </p>
+      </div>
+    </div>
+    <!-- Security Card 1 -->
+    <div class="safety-card" id="security-cards">
+      <div class="safety-card-left" id="fourth-safety-card-left">
+        <div class="safety-card-left-container">
+          <header class="safety-left-header">
+            Securing Your Data in Transit
+          </header>
+          <br class="security-text-breaks" />
+          <br class="security-text-breaks" />
+          <br />
+          <p class="safety-left-text" id="security-card-left-text">
+            All data in transit between you, your network, and Wing, its
+            technologies, its servers, partners, providers, and all key
+            stakeholders are encrypted via SSL using 2048-bit certificates.
+          </p>
+          <div class="learn-more-container" id="fourth-learn-more-container">
+            <!-- <i class="fa fa-plus" id="fourth-more-button" aria-hidden="true"></i> -->
+            <i class="fa fa-plus-circle" id="fourth-more-button" aria-hidden="true"></i>
+            <span id="fourth-learn-more-span">Learn More</span>
           </div>
         </div>
       </div>
-      <!-- Security Card 3 -->
-      <div class="safety-card" id="security-cards">
-        <div class="safety-card-left" id="sixth-safety-card-left">
-          <div class="safety-card-left-container">
-            <header class="safety-left-header">
-              Limited Access to Your Data
-            </header>
-            <br class="security-text-breaks" />
-            <br class="security-text-breaks" />
-            <br />
-            <p class="safety-left-text" id="security-card-left-text">
-              We lock ourselves out of your data. Our internal systems,
-              operations teams, support agents & employees do not have access to
-              your information. Your information only becomes available to our
-              AI & one human operator when digitally authorized, or consented by
-              you.
-            </p>
-            <div class="learn-more-container" id="third-learn-more-container">
-              <i class="fa fa-plus" id="third-more-button" aria-hidden="true"></i>
-              <span id="third-learn-more-span">Learn More</span>
-            </div>
-          </div>
+      <div class="safety-card-right" id="fourth-safety-card-right">
+        <img src="icons/lock.png" alt="lock.png" class="card-icon" />
+      </div>
+      <div class="safety-card-hidden" id="fourth-hidden-card">
+        <div class="hidden-content-container">
+          <span class="hidden-button-container"><i class="fa fa-plus-circle" id="fourth-hidden-button"
+              aria-hidden="true"></i></span>
+          <h2 class="hidden-header">Securing Your Data</h2>
+          <p class="hidden-text">
+            This means, third parties can't "listen in" or "packet sniff" as
+            your data is in transit over the network.
+          </p>
         </div>
-        <div class="safety-card-right" id="sixth-safety-card-right">
-          <img src="icons/key.png" alt="key.png" class="card-icon" />
-        </div>
-        <div class="safety-card-hidden" id="third-hidden-card">
-          <div class="hidden-content-container">
-            <div class="learn-more-container" id="third-learn-more-container">
-              <i class="fa fa-plus" id="third-hidden-button" aria-hidden="true"></i>
-            </div>
-            <h2 class="hidden-header">Limited Access</h2>
-            <p class="hidden-text">
-              This means, Wing is unable to access your data until you authorize
-              us to do so.
-            </p>
+      </div>
+    </div>
+    <!-- Security Card 2 -->
+    <div class="safety-card" id="security-cards">
+      <div class="safety-card-left" id="fifth-safety-card-left">
+        <div class="safety-card-left-container">
+          <header class="safety-left-header">
+            Bank-Level Security
+          </header>
+          <br class="security-text-breaks" />
+          <br class="security-text-breaks" />
+          <br />
+          <p class="safety-left-text" id="security-card-left-text">
+            Within our systems, all your data is stored using AES-256
+            encryption with a uniquely derived key for each user following the
+            recommendations of NIST S.P. 800-132. We encrypt all personally
+            identifiable data.
+          </p>
+          <div class="learn-more-container" id="fifth-learn-more-container">
+            <!-- <i class="fa fa-plus" id="fifth-more-button" aria-hidden="true"></i> -->
+            <i class="fa fa-plus-circle" id="fifth-more-button" aria-hidden="true"></i>
+            <span id="fifth-learn-more-span">Learn More</span>
           </div>
         </div>
       </div>
-      <!-- Secutiry Card 4 -->
-      <div class="safety-card" id="security-cards">
-        <div class="safety-card-left" id="seventh-safety-card-left">
-          <div class="safety-card-left-container">
-            <header class="safety-left-header">
-              PCI Level 1 Compliance
-            </header>
-            <br class="security-text-breaks" />
-            <br class="security-text-breaks" />
-            <br />
-            <p class="safety-left-text" id="security-card-left-text">
-              Our payments partner, Stripe - an industry leading provider, has
-              been audited by an independent PCI Qualified Security Assessor and
-              is certified as a PCI Level 1 Service Provider. This is the most
-              stringent level of certification available in the payments
-              industry.
-            </p>
-            <div class="learn-more-container" id="fourth-learn-more-container">
-              <i class="fa fa-plus" id="fourth-more-button" aria-hidden="true"></i>
-              <span id="fourth-learn-more-span">Learn More</span>
-            </div>
-          </div>
+      <div class="safety-card-right" id="fifth-safety-card-right">
+        <img src="icons/pay.png" alt="pay.png" class="card-icon" />
+      </div>
+      <div class="safety-card-hidden" id="fifth-hidden-card">
+        <div class="hidden-content-container">
+          <span class="hidden-button-container"><i class="fa fa-plus-circle" id="fifth-hidden-button"
+              aria-hidden="true"></i></span>
+          <h2 class="hidden-header">Bank-Level</h2>
+          <p class="hidden-text">
+            This means, even in the unlikely event our systems are
+            compromised, a malicious actor cannot read any data.
+          </p>
         </div>
-        <div class="safety-card-right" id="seventh-safety-card-right">
-          <img src="icons/law.png" alt="law.png" class="card-icon" />
-        </div>
-        <div class="safety-card-hidden" id="fourth-hidden-card">
-          <div class="hidden-content-container">
-            <div class="learn-more-container" id="fourth-learn-more-container">
-              <i class="fa fa-plus" id="fourth-hidden-button" aria-hidden="true"></i>
-            </div>
-            <h2 class="hidden-header">Compliance</h2>
-            <p class="hidden-text">
-              This means, we abide by the most stringent level of certification
-              available in the industry.
-            </p>
+      </div>
+    </div>
+    <!-- Security Card 3 -->
+    <div class="safety-card" id="security-cards">
+      <div class="safety-card-left" id="sixth-safety-card-left">
+        <div class="safety-card-left-container">
+          <header class="safety-left-header">
+            Limited Access to Your Data
+          </header>
+          <br class="security-text-breaks" />
+          <br class="security-text-breaks" />
+          <br />
+          <p class="safety-left-text" id="security-card-left-text">
+            We lock ourselves out of your data. Our internal systems,
+            operations teams, support agents & employees do not have access to
+            your information. Your information only becomes available to our
+            AI & one human operator when digitally authorized, or consented by
+            you.
+          </p>
+          <div class="learn-more-container" id="sixth-learn-more-container">
+            <!-- <i class="fa fa-plus" id="sixth-more-button" aria-hidden="true"></i> -->
+            <i class="fa fa-plus-circle" id="sixth-more-button" aria-hidden="true"></i>
+            <span id="sixth-learn-more-span">Learn More</span>
           </div>
         </div>
       </div>
-      <!-- Secutiry Card 5 -->
-      <div class="safety-card" id="security-cards">
-        <div class="safety-card-left" id="eigth-safety-card-left">
-          <div class="safety-card-left-container">
-            <header class="safety-left-header">
-              Authentication, Everytime
-            </header>
-            <br class="security-text-breaks" />
-            <br class="security-text-breaks" />
-            <br />
-            <p class="safety-left-text" id="security-card-left-text">
-              Everytime your account, or your device, requests - or sends data
-              or requests via Wing, or it's internal systems - your device's
-              identity is authenticated and verified with our servers.
-            </p>
-            <div class="learn-more-container" id="fifth-learn-more-container">
-              <i class="fa fa-plus" id="fifth-more-button" aria-hidden="true"></i>
-              <span id="fifth-learn-more-span">Learn More</span>
-            </div>
-          </div>
+      <div class="safety-card-right" id="sixth-safety-card-right">
+        <img src="icons/key.png" alt="key.png" class="card-icon" />
+      </div>
+      <div class="safety-card-hidden" id="sixth-hidden-card">
+        <div class="hidden-content-container">
+          <span class="hidden-button-container"><i class="fa fa-plus-circle" id="sixth-hidden-button"
+              aria-hidden="true"></i></span>
+          <h2 class="hidden-header">Limited Access</h2>
+          <p class="hidden-text">
+            This means, Wing is unable to access your data until you authorize
+            us to do so.
+          </p>
         </div>
-        <div class="safety-card-right" id="eigth-safety-card-right">
-          <img src="icons/safe.png" alt="safe.png" class="card-icon" />
-        </div>
-        <div class="safety-card-hidden" id="fifth-hidden-card">
-          <div class="hidden-content-container">
-            <div class="learn-more-container" id="fifth-learn-more-container">
-              <i class="fa fa-plus" id="fifth-hidden-button" aria-hidden="true"></i>
-            </div>
-            <h2 class="hidden-header">Authentication</h2>
-            <p class="hidden-text">
-              This means, a malicious actor trying to send/receive data by
-              pretending to be you, will not be able to do so
-            </p>
+      </div>
+    </div>
+    <!-- Secutiry Card 4 -->
+    <div class="safety-card" id="security-cards">
+      <div class="safety-card-left" id="seventh-safety-card-left">
+        <div class="safety-card-left-container">
+          <header class="safety-left-header">
+            PCI Level 1 Compliance
+          </header>
+          <br class="security-text-breaks" />
+          <br class="security-text-breaks" />
+          <br />
+          <p class="safety-left-text" id="security-card-left-text">
+            Our payments partner, Stripe - an industry leading provider, has
+            been audited by an independent PCI Qualified Security Assessor and
+            is certified as a PCI Level 1 Service Provider. This is the most
+            stringent level of certification available in the payments
+            industry.
+          </p>
+          <div class="learn-more-container" id="seventh-learn-more-container">
+            <!-- <i class="fa fa-plus" id="seventh-more-button" aria-hidden="true"></i> -->
+            <i class="fa fa-plus-circle" id="seventh-more-button" aria-hidden="true"></i>
+            <span id="seventh-learn-more-span">Learn More</span>
           </div>
         </div>
       </div>
-      <!-- Security Card 6 -->
-      <div class="safety-card" id="security-cards">
-        <div class="safety-card-left" id="ninth-safety-card-left">
-          <div class="safety-card-left-container">
-            <header class="safety-left-header">
-              Always Staying Ahead!
-            </header>
-            <br class="security-text-breaks" />
-            <br class="security-text-breaks" />
-            <br />
-            <p class="safety-left-text" id="security-card-left-text">
-              Wing cares immensely for your privacy and data security. We want
-              our clients to feel at ease trusting us completely. We invest a
-              lot into security engineering talent and resources dedicated to
-              keeping your data, our platform, and your activity completely
-              secure.
-            </p>
-            <div class="learn-more-container" id="sixth-learn-more-container">
-              <i class="fa fa-plus" id="sixth-more-button" aria-hidden="true"></i>
-              <span id="sixth-learn-more-span">Learn More</span>
-            </div>
-          </div>
+      <div class="safety-card-right" id="seventh-safety-card-right">
+        <img src="icons/law.png" alt="law.png" class="card-icon" />
+      </div>
+      <div class="safety-card-hidden" id="seventh-hidden-card">
+        <div class="hidden-content-container">
+          <span class="hidden-button-container"><i class="fa fa-plus-circle" id="seventh-hidden-button"
+              aria-hidden="true"></i></span>
+          <h2 class="hidden-header">Compliance</h2>
+          <p class="hidden-text">
+            This means, we abide by the most stringent level of certification
+            available in the industry.
+          </p>
         </div>
-        <div class="safety-card-right" id="ninth-safety-card-right">
-          <img src="icons/telescope.png" alt="telescope.png" class="card-icon" />
-        </div>
-        <div class="safety-card-hidden" id="sixth-hidden-card">
-          <div class="hidden-content-container">
-            <div class="learn-more-container" id="sixth-learn-more-container">
-              <i class="fa fa-plus" id="sixth-hidden-button" aria-hidden="true"></i>
-            </div>
-            <h2 class="hidden-header">Always Ahead!</h2>
-            <p class="hidden-text">
-              This means, we're constantly adapting to potential threats
-            </p>
+      </div>
+    </div>
+    <!-- Secutiry Card 5 -->
+    <div class="safety-card" id="security-cards">
+      <div class="safety-card-left" id="eigth-safety-card-left">
+        <div class="safety-card-left-container">
+          <header class="safety-left-header">
+            Authentication, Everytime
+          </header>
+          <br class="security-text-breaks" />
+          <br class="security-text-breaks" />
+          <br />
+          <p class="safety-left-text" id="security-card-left-text">
+            Everytime your account, or your device, requests - or sends data
+            or requests via Wing, or it's internal systems - your device's
+            identity is authenticated and verified with our servers.
+          </p>
+          <div class="learn-more-container" id="eigth-learn-more-container">
+            <!-- <i class="fa fa-plus" id="eigth-more-button" aria-hidden="true"></i> -->
+            <i class="fa fa-plus-circle" id="eigth-more-button" aria-hidden="true"></i>
+            <span id="eigth-learn-more-span">Learn More</span>
           </div>
         </div>
       </div>
+      <div class="safety-card-right" id="eigth-safety-card-right">
+        <img src="icons/safe.png" alt="safe.png" class="card-icon" />
+      </div>
+      <div class="safety-card-hidden" id="eigth-hidden-card">
+        <div class="hidden-content-container">
+          <span class="hidden-button-container"><i class="fa fa-plus-circle" id="eigth-hidden-button"
+              aria-hidden="true"></i></span>
+          <h2 class="hidden-header">Authentication</h2>
+          <p class="hidden-text">
+            This means, a malicious actor trying to send/receive data by
+            pretending to be you, will not be able to do so
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Security Card 6 -->
+    <div class="safety-card" id="security-cards">
+      <div class="safety-card-left" id="ninth-safety-card-left">
+        <div class="safety-card-left-container">
+          <header class="safety-left-header">
+            Always Staying Ahead!
+          </header>
+          <br class="security-text-breaks" />
+          <br class="security-text-breaks" />
+          <br />
+          <p class="safety-left-text" id="security-card-left-text">
+            Wing cares immensely for your privacy and data security. We want
+            our clients to feel at ease trusting us completely. We invest a
+            lot into security engineering talent and resources dedicated to
+            keeping your data, our platform, and your activity completely
+            secure.
+          </p>
+          <div class="learn-more-container" id="ninth-learn-more-container">
+            <!-- <i class="fa fa-plus" id="ninth-more-button" aria-hidden="true"></i> -->
+            <i class="fa fa-plus-circle" id="ninth-more-button" aria-hidden="true"></i>
+            <span id="ninth-learn-more-span">Learn More</span>
+          </div>
+        </div>
+      </div>
+      <div class="safety-card-right" id="ninth-safety-card-right">
+        <img src="icons/telescope.png" alt="telescope.png" class="card-icon" />
+      </div>
+      <div class="safety-card-hidden" id="ninth-hidden-card">
+        <div class="hidden-content-container">
+          <span class="hidden-button-container"><i class="fa fa-plus-circle" id="ninth-hidden-button"
+              aria-hidden="true"></i></span>
+          <h2 class="hidden-header">Always Ahead!</h2>
+          <p class="hidden-text">
+            This means, we're constantly adapting to potential threats
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
   <!-- Price Section -->
   <section class="price-section">
@@ -733,71 +779,454 @@
       $(".nav-dropdown").slideToggle();
     });
     // click first learn more button. make the learn more visible full screen
+
+    var x = window.matchMedia("(max-width: 750px)")
+
+
     $("#first-learn-more-container").click(function () {
-      $("#first-learn-more-container").css("opacity", "0");
-      $("#fourth-safety-card-right").css("display", "none");
-      $("#first-hidden-card").css("display", "flex");
+      if ($("#first-hidden-card").css('display') == 'none') {
+        $("#first-more-button").css('transform', 'rotate(45deg');
+        if (x.matches) {
+          $("#first-safety-card-right").css("display", "none");
+          $("#first-hidden-card").css("display", "flex");
+        } else {
+          $("#first-safety-card-right").fadeOut();
+          setTimeout(function () { $("#first-hidden-card").fadeIn(); }, 500);
+        }
+      } else {
+        $("#first-more-button").css('transform', 'rotate(0deg');
+        if (x.matches) {
+          $("#first-hidden-card").css("display", "none");
+          $("#first-safety-card-right").css("display", "flex");
+        } else {
+          $("#first-hidden-card").fadeOut();
+          setTimeout(function () { $("#first-safety-card-right").fadeIn(); }, 500);
+        }
+      }
     });
     $("#first-hidden-button").click(function () {
-      $("#first-learn-more-container").css("opacity", "1");
+      $("#first-more-button").css('transform', 'rotate(0deg');
       $("#first-hidden-card").css("display", "none");
-      $("#fourth-safety-card-right").css("display", "flex");
+      $("#first-safety-card-right").css("display", "flex");
     });
-    // click second learn more button. make the learn more visible full screen
+
     $("#second-learn-more-container").click(function () {
-      $("#second-learn-more-container").css("opacity", "0");
-      $("#fifth-safety-card-right").css("display", "none");
-      $("#second-hidden-card").css("display", "flex");
+      if ($("#second-hidden-card").css('display') == 'none') {
+        $("#second-more-button").css('transform', 'rotate(45deg');
+        if (x.matches) {
+          $("#second-safety-card-right").css("display", "none");
+          $("#second-hidden-card").css("display", "flex");
+        } else {
+          $("#second-safety-card-right").fadeOut();
+          setTimeout(function () { $("#second-hidden-card").fadeIn(); }, 500);
+        }
+      } else {
+        $("#second-more-button").css('transform', 'rotate(0deg');
+        if (x.matches) {
+          $("#second-hidden-card").css("display", "none");
+          $("#second-safety-card-right").css("display", "flex");
+        } else {
+          $("#second-hidden-card").fadeOut();
+          setTimeout(function () { $("#second-safety-card-right").fadeIn(); }, 500);
+        }
+      }
     });
     $("#second-hidden-button").click(function () {
-      $("#second-learn-more-container").css("opacity", "1");
+      $("#second-more-button").css('transform', 'rotate(0deg');
       $("#second-hidden-card").css("display", "none");
-      $("#fifth-safety-card-right").css("display", "flex");
+      $("#second-safety-card-right").css("display", "flex");
     });
-    // click third learn more button. make the learn more visible full screen
+
     $("#third-learn-more-container").click(function () {
-      $("#third-learn-more-container").css("opacity", "0");
-      $("#sixth-safety-card-right").css("display", "none");
-      $("#third-hidden-card").css("display", "flex");
+      if ($("#third-hidden-card").css('display') == 'none') {
+        $("#third-more-button").css('transform', 'rotate(45deg');
+        if (x.matches) {
+          $("#third-safety-card-right").css("display", "none");
+          $("#third-hidden-card").css("display", "flex");
+        } else {
+          $("#third-safety-card-right").fadeOut();
+          setTimeout(function () { $("#third-hidden-card").fadeIn(); }, 500);
+        }
+      } else {
+        $("#third-more-button").css('transform', 'rotate(0deg');
+        if (x.matches) {
+          $("#third-hidden-card").css("display", "none");
+          $("#third-safety-card-right").css("display", "flex");
+        } else {
+          $("#third-hidden-card").fadeOut();
+          setTimeout(function () { $("#third-safety-card-right").fadeIn(); }, 500);
+        }
+      }
     });
     $("#third-hidden-button").click(function () {
-      $("#third-learn-more-container").css("opacity", "1");
+      $("#third-more-button").css('transform', 'rotate(0deg');
       $("#third-hidden-card").css("display", "none");
-      $("#sixth-safety-card-right").css("display", "flex");
+      $("#third-safety-card-right").css("display", "flex");
     });
-    // click fourth learn more button. make the learn more visible full screen
+
     $("#fourth-learn-more-container").click(function () {
-      $("#fourth-learn-more-container").css("opacity", "0");
-      $("#seventh-safety-card-right").css("display", "none");
-      $("#fourth-hidden-card").css("display", "flex");
+      if ($("#fourth-hidden-card").css('display') == 'none') {
+        $("#fourth-more-button").css('transform', 'rotate(45deg');
+        if (x.matches) {
+          $("#fourth-safety-card-right").css("display", "none");
+          $("#fourth-hidden-card").css("display", "flex");
+        } else {
+          $("#fourth-safety-card-right").fadeOut();
+          setTimeout(function () { $("#fourth-hidden-card").fadeIn(); }, 500);
+        }
+      } else {
+        $("#fourth-more-button").css('transform', 'rotate(0deg');
+        if (x.matches) {
+          $("#fourth-hidden-card").css("display", "none");
+          $("#fourth-safety-card-right").css("display", "flex");
+        } else {
+          $("#fourth-hidden-card").fadeOut();
+          setTimeout(function () { $("#fourth-safety-card-right").fadeIn(); }, 500);
+        }
+      }
     });
     $("#fourth-hidden-button").click(function () {
-      $("#fourth-learn-more-container").css("opacity", "1");
+      $("#fourth-more-button").css('transform', 'rotate(0deg');
       $("#fourth-hidden-card").css("display", "none");
-      $("#seventh-safety-card-right").css("display", "flex");
+      $("#fourth-safety-card-right").css("display", "flex");
     });
-    // click fifth learn more button. make the learn more visible full screen
+
     $("#fifth-learn-more-container").click(function () {
-      $("#fifth-learn-more-container").css("opacity", "0");
-      $("#eigth-safety-card-right").css("display", "none");
-      $("#fifth-hidden-card").css("display", "flex");
+      if ($("#fifth-hidden-card").css('display') == 'none') {
+        $("#fifth-more-button").css('transform', 'rotate(45deg');
+        if (x.matches) {
+          $("#fifth-safety-card-right").css("display", "none");
+          $("#fifth-hidden-card").css("display", "flex");
+        } else {
+          $("#fifth-safety-card-right").fadeOut();
+          setTimeout(function () { $("#fifth-hidden-card").fadeIn(); }, 500);
+        }
+      } else {
+        $("#fifth-more-button").css('transform', 'rotate(0deg');
+        if (x.matches) {
+          $("#fifth-hidden-card").css("display", "none");
+          $("#fifth-safety-card-right").css("display", "flex");
+        } else {
+          $("#fifth-hidden-card").fadeOut();
+          setTimeout(function () { $("#fifth-safety-card-right").fadeIn(); }, 500);
+        }
+      }
     });
     $("#fifth-hidden-button").click(function () {
-      $("#fifth-learn-more-container").css("opacity", "1");
+      $("#fifth-more-button").css('transform', 'rotate(0deg');
       $("#fifth-hidden-card").css("display", "none");
-      $("#eigth-safety-card-right").css("display", "flex");
+      $("#fifth-safety-card-right").css("display", "flex");
     });
-    // click sixth learn more button. make the learn more visible full screen
+
     $("#sixth-learn-more-container").click(function () {
-      $("#sixth-learn-more-container").css("opacity", "0");
-      $("#ninth-safety-card-right").css("display", "none");
-      $("#sixth-hidden-card").css("display", "flex");
+      if ($("#sixth-hidden-card").css('display') == 'none') {
+        $("#sixth-more-button").css('transform', 'rotate(45deg');
+        if (x.matches) {
+          $("#sixth-safety-card-right").css("display", "none");
+          $("#sixth-hidden-card").css("display", "flex");
+        } else {
+          $("#sixth-safety-card-right").fadeOut();
+          setTimeout(function () { $("#sixth-hidden-card").fadeIn(); }, 500);
+        }
+      } else {
+        $("#sixth-more-button").css('transform', 'rotate(0deg');
+        if (x.matches) {
+          $("#sixth-hidden-card").css("display", "none");
+          $("#sixth-safety-card-right").css("display", "flex");
+        } else {
+          $("#sixth-hidden-card").fadeOut();
+          setTimeout(function () { $("#sixth-safety-card-right").fadeIn(); }, 500);
+        }
+      }
     });
     $("#sixth-hidden-button").click(function () {
-      $("#sixth-learn-more-container").css("opacity", "1");
+      $("#sixth-more-button").css('transform', 'rotate(0deg');
       $("#sixth-hidden-card").css("display", "none");
+      $("#sixth-safety-card-right").css("display", "flex");
+    });
+
+    $("#seventh-learn-more-container").click(function () {
+      if ($("#seventh-hidden-card").css('display') == 'none') {
+        $("#seventh-more-button").css('transform', 'rotate(45deg');
+        if (x.matches) {
+          $("#seventh-safety-card-right").css("display", "none");
+          $("#seventh-hidden-card").css("display", "flex");
+        } else {
+          $("#seventh-safety-card-right").fadeOut();
+          setTimeout(function () { $("#seventh-hidden-card").fadeIn(); }, 500);
+        }
+      } else {
+        $("#seventh-more-button").css('transform', 'rotate(0deg');
+        if (x.matches) {
+          $("#seventh-hidden-card").css("display", "none");
+          $("#seventh-safety-card-right").css("display", "flex");
+        } else {
+          $("#seventh-hidden-card").fadeOut();
+          setTimeout(function () { $("#seventh-safety-card-right").fadeIn(); }, 500);
+        }
+      }
+    });
+    $("#seventh-hidden-button").click(function () {
+      $("#seventh-more-button").css('transform', 'rotate(0deg');
+      $("#seventh-hidden-card").css("display", "none");
+      $("#seventh-safety-card-right").css("display", "flex");
+    });
+
+    $("#eigth-learn-more-container").click(function () {
+      if ($("#eigth-hidden-card").css('display') == 'none') {
+        $("#eigth-more-button").css('transform', 'rotate(45deg');
+        if (x.matches) {
+          $("#eigth-safety-card-right").css("display", "none");
+          $("#eigth-hidden-card").css("display", "flex");
+        } else {
+          $("#eigth-safety-card-right").fadeOut();
+          setTimeout(function () { $("#eigth-hidden-card").fadeIn(); }, 500);
+        }
+      } else {
+        $("#eigth-more-button").css('transform', 'rotate(0deg');
+        if (x.matches) {
+          $("#eigth-hidden-card").css("display", "none");
+          $("#eigth-safety-card-right").css("display", "flex");
+        } else {
+          $("#eigth-hidden-card").fadeOut();
+          setTimeout(function () { $("#eigth-safety-card-right").fadeIn(); }, 500);
+        }
+      }
+    });
+    $("#eigth-hidden-button").click(function () {
+      $("#eigth-more-button").css('transform', 'rotate(0deg');
+      $("#eigth-hidden-card").css("display", "none");
+      $("#eigth-safety-card-right").css("display", "flex");
+    });
+
+    $("#ninth-learn-more-container").click(function () {
+      if ($("#ninth-hidden-card").css('display') == 'none') {
+        $("#ninth-more-button").css('transform', 'rotate(45deg');
+        if (x.matches) {
+          $("#ninth-safety-card-right").css("display", "none");
+          $("#ninth-hidden-card").css("display", "flex");
+        } else {
+          $("#ninth-safety-card-right").fadeOut();
+          setTimeout(function () { $("#ninth-hidden-card").fadeIn(); }, 500);
+        }
+      } else {
+        $("#ninth-more-button").css('transform', 'rotate(0deg');
+        if (x.matches) {
+          $("#ninth-hidden-card").css("display", "none");
+          $("#ninth-safety-card-right").css("display", "flex");
+        } else {
+          $("#ninth-hidden-card").fadeOut();
+          setTimeout(function () { $("#ninth-safety-card-right").fadeIn(); }, 500);
+        }
+      }
+    });
+    $("#ninth-hidden-button").click(function () {
+      $("#ninth-more-button").css('transform', 'rotate(0deg');
+      $("#ninth-hidden-card").css("display", "none");
       $("#ninth-safety-card-right").css("display", "flex");
     });
+    // // $("#first-hidden-button").click(function () {
+    // //   $("#first-learn-more-container").css("opacity", "1");
+    // //   $("#first-hidden-card").css("display", "none");
+    // //   $("#fourth-safety-card-right").css("display", "flex");
+    // // });
+    // // click second learn more button. make the learn more visible full screen
+    // $("#second-learn-more-container").click(function () {
+    //   if ($("#second-hidden-card").css('display') == 'none') {
+    //     $("#second-more-button").css('transform', 'rotate(45deg');
+    //     $("#second-safety-card-right").fadeOut();
+    //     setTimeout(function () { $("#second-hidden-card").fadeIn(); }, 500);
+    //     // .css("display", "none");
+    //     // $("#second-hidden-card").css("display", "flex");
+    //   } else {
+    //     $("#second-more-button").css('transform', 'rotate(0deg');
+    //     $("#second-hidden-card").fadeOut();
+    //     // .css("display", "none");
+    //     setTimeout(function () { $("#second-safety-card-right").fadeIn(); }, 500);
+
+    //     // $("#second-safety-card-right").css("display", "flex");
+    //   }
+    // });
+    // $("#second-hidden-button").click(function () {
+    //   $("#second-more-button").css('transform', 'rotate(0deg');
+    //   $("#second-hidden-card").css("display", "none");
+    //   $("#second-safety-card-right").css("display", "flex");
+    // });
+    // // $("#second-hidden-button").click(function () {
+    // //   $("#second-learn-more-container").css("opacity", "1");
+    // //   $("#second-hidden-card").css("display", "none");
+    // //   $("#fifth-safety-card-right").css("display", "flex");
+    // // });
+    // // click third learn more button. make the learn more visible full screen
+    // $("#third-learn-more-container").click(function () {
+    //   if ($("#third-hidden-card").css('display') == 'none') {
+    //     $("#third-more-button").css('transform', 'rotate(45deg');
+    //     // $("#third-safety-card-right").css("display", "none");
+    //     // $("#third-hidden-card").css("display", "flex");
+    //     $("#third-safety-card-right").fadeOut();
+    //     setTimeout(function () { $("#third-hidden-card").fadeIn(); }, 500);
+
+    //   } else {
+    //     $("#third-more-button").css('transform', 'rotate(0deg');
+    //     // $("#third-hidden-card").css("display", "none");
+    //     // $("#third-safety-card-right").css("display", "flex");
+    //     $("#third-hidden-card").fadeOut();
+    //     setTimeout(function () { $("#third-safety-card-right").fadeIn(); }, 500);
+    //   }
+    // });
+    // $("#third-hidden-button").click(function () {
+    //   $("#third-more-button").css('transform', 'rotate(0deg');
+    //   $("#third-hidden-card").css("display", "none");
+    //   $("#third-safety-card-right").css("display", "flex");
+    // });
+    // // $("#third-hidden-button").click(function () {
+    // //   $("#third-learn-more-container").css("opacity", "1");
+    // //   $("#third-hidden-card").css("display", "none");
+    // //   $("#sixth-safety-card-right").css("display", "flex");
+    // // });
+    // // click fourth learn more button. make the learn more visible full screen
+    // $("#fourth-learn-more-container").click(function () {
+    //   if ($("#fourth-hidden-card").css('display') == 'none') {
+    //     $("#fourth-more-button").css('transform', 'rotate(45deg');
+    //     // $("#fourth-safety-card-right").css("display", "none");
+    //     // $("#fourth-hidden-card").css("display", "flex");
+    //     $("#fourth-safety-card-right").fadeOut();
+    //     setTimeout(function () { $("#fourth-hidden-card").fadeIn(); }, 500);
+    //   } else {
+    //     $("#fourth-more-button").css('transform', 'rotate(0deg');
+    //     // $("#fourth-hidden-card").css("display", "none");
+    //     // $("#fourth-safety-card-right").css("display", "flex");
+    //     $("#fourth-hidden-card").fadeOut();
+    //     setTimeout(function () { $("#fourth-safety-card-right").fadeIn(); }, 500);
+    //   }
+    // });
+    // $("#fourth-hidden-button").click(function () {
+    //   $("#fourth-more-button").css('transform', 'rotate(0deg');
+    //   $("#fourth-hidden-card").css("display", "none");
+    //   $("#fourth-safety-card-right").css("display", "flex");
+    // });
+    // // $("#fourth-hidden-button").click(function () {
+    // //   $("#fourth-learn-more-container").css("opacity", "1");
+    // //   $("#fourth-hidden-card").css("display", "none");
+    // //   $("#seventh-safety-card-right").css("display", "flex");
+    // // });
+    // // click fifth learn more button. make the learn more visible full screen
+    // $("#fifth-learn-more-container").click(function () {
+    //   if ($("#fifth-hidden-card").css('display') == 'none') {
+    //     $("#fifth-more-button").css('transform', 'rotate(45deg');
+    //     // $("#fifth-safety-card-right").css("display", "none");
+    //     // $("#fifth-hidden-card").css("display", "flex");
+    //     $("#fifth-safety-card-right").fadeOut();
+    //     setTimeout(function () { $("#fifth-hidden-card").fadeIn(); }, 500);
+    //   } else {
+    //     $("#fifth-more-button").css('transform', 'rotate(0deg');
+    //     // $("#fifth-hidden-card").css("display", "none");
+    //     // $("#fifth-safety-card-right").css("display", "flex");
+    //     $("#fifth-hidden-card").fadeOut();
+    //     setTimeout(function () { $("#fifth-safety-card-right").fadeIn(); }, 500);
+    //   }
+    // });
+    // $("#fifth-hidden-button").click(function () {
+    //   $("#fifth-more-button").css('transform', 'rotate(0deg');
+    //   $("#fifth-hidden-card").css("display", "none");
+    //   $("#fifth-safety-card-right").css("display", "flex");
+    // });
+    // // $("#fifth-hidden-button").click(function () {
+    // //   $("#fifth-learn-more-container").css("opacity", "1");
+    // //   $("#fifth-hidden-card").css("display", "none");
+    // //   $("#eigth-safety-card-right").css("display", "flex");
+    // // });
+    // // click sixth learn more button. make the learn more visible full screen
+    // $("#sixth-learn-more-container").click(function () {
+    //   if ($("#sixth-hidden-card").css('display') == 'none') {
+    //     $("#sixth-more-button").css('transform', 'rotate(45deg');
+    //     // $("#sixth-safety-card-right").css("display", "none");
+    //     // $("#sixth-hidden-card").css("display", "flex");
+    //     $("#sixth-safety-card-right").fadeOut();
+    //     setTimeout(function () { $("#sixth-hidden-card").fadeIn(); }, 500);
+    //   } else {
+    //     $("#sixth-more-button").css('transform', 'rotate(0deg');
+    //     // $("#sixth-hidden-card").css("display", "none");
+    //     // $("#sixth-safety-card-right").css("display", "flex");
+    //     $("#sixth-hidden-card").fadeOut();
+    //     setTimeout(function () { $("#sixth-safety-card-right").fadeIn(); }, 500);
+    //   }
+    // });
+    // $("#sixth-hidden-button").click(function () {
+    //   $("#sixth-more-button").css('transform', 'rotate(0deg');
+    //   $("#sixth-hidden-card").css("display", "none");
+    //   $("#sixth-safety-card-right").css("display", "flex");
+    // });
+    // // $("#sixth-hidden-button").click(function () {
+    // //   $("#sixth-learn-more-container").css("opacity", "1");
+    // //   $("#sixth-hidden-card").css("display", "none");
+    // //   $("#ninth-safety-card-right").css("display", "flex");
+    // // });
+
+    // $("#seventh-learn-more-container").click(function () {
+    //   if ($("#seventh-hidden-card").css('display') == 'none') {
+    //     $("#seventh-more-button").css('transform', 'rotate(45deg');
+    //     // $("#seventh-safety-card-right").css("display", "none");
+    //     // $("#seventh-hidden-card").css("display", "flex");
+    //     $("#seventh-safety-card-right").fadeOut();
+    //     setTimeout(function () { $("#seventh-hidden-card").fadeIn(); }, 500);
+    //   } else {
+    //     $("#seventh-more-button").css('transform', 'rotate(0deg');
+    //     // $("#seventh-hidden-card").css("display", "none");
+    //     // $("#seventh-safety-card-right").css("display", "flex");
+    //     $("#seventh-hidden-card").fadeOut();
+    //     setTimeout(function () { $("#seventh-safety-card-right").fadeIn(); }, 500);
+    //   }
+    // });
+    // $("#seventh-hidden-button").click(function () {
+    //   $("#seventh-more-button").css('transform', 'rotate(0deg');
+    //   $("#seventh-hidden-card").css("display", "none");
+    //   $("#seventh-safety-card-right").css("display", "flex");
+    // });
+
+
+    // $("#eigth-learn-more-container").click(function () {
+    //   if ($("#eigth-hidden-card").css('display') == 'none') {
+    //     $("#eigth-more-button").css('transform', 'rotate(45deg');
+    //     // $("#eigth-safety-card-right").css("display", "none");
+    //     // $("#eigth-hidden-card").css("display", "flex");
+    //     $("#eigth-safety-card-right").fadeOut();
+    //     setTimeout(function () { $("#eigth-hidden-card").fadeIn(); }, 500);
+    //   } else {
+    //     $("#eigth-more-button").css('transform', 'rotate(0deg');
+    //     // $("#eigth-hidden-card").css("display", "none");
+    //     // $("#eigth-safety-card-right").css("display", "flex");
+    //     $("#eigth-hidden-card").fadeOut();
+    //     setTimeout(function () { $("#eigth-safety-card-right").fadeIn(); }, 500);
+    //   }
+    // });
+    // $("#eigth-hidden-button").click(function () {
+    //   $("#eigth-more-button").css('transform', 'rotate(0deg');
+    //   $("#eigth-hidden-card").css("display", "none");
+    //   $("#eigth-safety-card-right").css("display", "flex");
+    // });
+    // // The third card down
+    // $("#ninth-learn-more-container").click(function () {
+    //   if ($("#ninth-hidden-card").css('display') == 'none') {
+    //     $("#ninth-more-button").css('transform', 'rotate(45deg');
+    //     // $("#ninth-safety-card-right").css("display", "none");
+    //     // $("#ninth-hidden-card").css("display", "flex");
+    //     $("#ninth-safety-card-right").fadeOut();
+    //     setTimeout(function () { $("#ninth-hidden-card").fadeIn(); }, 500);
+    //   } else {
+    //     $("#ninth-more-button").css('transform', 'rotate(0deg');
+    //     // $("#ninth-hidden-card").css("display", "none");
+    //     // $("#ninth-safety-card-right").css("display", "flex");
+    //     $("#ninth-hidden-card").fadeOut();
+    //     setTimeout(function () { $("#ninth-safety-card-right").fadeIn(); }, 500);
+    //   }
+    // });
+    // $("#ninth-hidden-button").click(function () {
+    //   $("#ninth-more-button").css('transform', 'rotate(0deg');
+    //   $("#ninth-hidden-card").css("display", "none");
+    //   $("#ninth-safety-card-right").css("display", "flex");
+    // });
+
     // Monthly-Annually price card toggle
     $("#monthly").click(function () {
       $("#annually-cards").css("display", "none");
@@ -924,6 +1353,12 @@
 
     }
   }
+  $(document).keypress(function (e) {
+    if (e.which == 27) {
+      modal.style.display = "none";
+      document.getElementById("privacy-iframe").src = "";
+    }
+  });
 </script>
 
 </html>

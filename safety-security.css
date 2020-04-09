@@ -5,6 +5,7 @@
   width: 100%;
   background-color: black;
 }
+
 .safety-security-header-container {
   height: 60vh;
   max-height: 500px;
@@ -12,9 +13,11 @@
   justify-content: center;
   align-items: center;
 }
+
 .safety-security-header {
   font-size: 72px;
 }
+
 /* Safety Cards */
 .safety-card {
   display: flex;
@@ -23,6 +26,7 @@
   height: 650px;
   margin-bottom: 20vh;
 }
+
 .safety-card-left {
   width: 50%;
   /* height: 100%; */
@@ -32,7 +36,9 @@
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
+
 .safety-card-right {
   display: flex;
   justify-content: center;
@@ -43,37 +49,48 @@
   background-color: rgb(1, 123, 217);
   padding: 1vh 1vw;
 }
+
 .safety-card-left-container {
-  width: 90%;
+  width: 80%;
   /* height: 60%; */
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-around;
-  position: relative;
 }
+
 .safety-left-header {
-  text-align: center;
+  text-align: left;
   font-size: 56px;
+  margin-bottom: -3vh;
+  width: 100%;
+
 }
+
 .safety-left-text {
-  font-size: 25px;
-  width: 80%;
+  font-size: 21px;
+  width: 100%;
+  text-align: left;
+  font-weight: 100;
+  line-height: 35px;
+}
+
+#security-card-left-text {
+  /* line-height: 28px; */
+  width: 100%;
   text-align: left;
 }
-#security-card-left-text {
-  line-height: 28px;
-  width: 90%;
-  text-align: center;
-}
+
 .card-icon {
   width: 400px;
   animation: rotate 7s infinite;
 }
+
 @keyframes rotate {
   30% {
     transform: rotateY(180deg);
   }
+
   60% {
     transform: rotateY(0deg);
   }
@@ -82,60 +99,80 @@
 #first-safety-card-left {
   background-color: rgb(9, 25, 38);
 }
+
 #first-safety-card-right {
   background-color: rgb(1, 123, 217);
 }
+
 #second-safety-card-left {
   /* background-color: rgb(235, 27, 37); */
   background-color: lightcoral;
 }
+
 #second-safety-card-right {
   /* background-color: rgb(0, 165, 94); */
   background-color: whitesmoke;
 }
+
 #third-safety-card-left {
   background-color: rgb(1, 123, 217);
 }
+
 #third-safety-card-right {
   background: lightblue;
 }
+
 #fifth-safety-card-left {
   background-color: lightcoral;
 }
+
 #fifth-safety-card-right {
   background-color: whitesmoke;
 }
+
 #sixth-safety-card-left {
   background-color: rgb(1, 123, 217);
 }
+
 #sixth-safety-card-right {
   background-color: lightblue;
 }
+
 #seventh-safety-card-left {
   background-color: rgb(9, 25, 38);
 }
+
 #seventh-safety-card-right {
   background-color: rgb(1, 123, 217);
 }
+
 #eigth-safety-card-left {
   background-color: lightcoral;
 }
+
 #eigth-safety-card-right {
   background-color: whitesmoke;
 }
+
 #ninth-safety-card-left {
   background-color: rgb(1, 123, 217);
 }
+
 #ninth-safety-card-right {
   background-color: lightblue;
 }
+
 .learn-more-container {
   display: flex;
   align-items: center;
   font-size: 18px;
   align-self: flex-start;
   margin-left: 15px;
+  position: absolute;
+  bottom: 15px;
+  left: 5px;
 }
+
 .learn-more-container i {
   border-radius: 50px;
   height: 30px;
@@ -145,21 +182,9 @@
   align-items: center;
   cursor: pointer;
 }
-#first-more-button {
-  color: rgb(1, 123, 217);
-  border: 1px solid rgb(1, 123, 217);
-  background-color: black;
-}
-#first-more-button:hover {
-  color: black;
-  background-color: rgb(1, 123, 217);
-}
-#first-learn-more-span {
-  color: rgb(1, 123, 217);
-  font-size: 15px;
-  margin-left: 10px;
-  cursor: pointer;
-}
+
+
+
 .safety-card-hidden {
   background-color: rgb(9, 25, 38);
   height: 100%;
@@ -167,6 +192,7 @@
   padding: 5%;
   border-radius: 0px 30px 30px 0px;
 }
+
 .hidden-content-container {
   height: 80%;
   width: 100%;
@@ -175,201 +201,382 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
 }
+
 .hidden-header {
-  font-size: 41px;
+  /* font-size: 41px; */
+  font-weight: 400;
+  text-align: left;
+  font-size: 56px;
+  /* margin-bottom: -3vh; */
+  width: 100%;
 }
+
 .hidden-text {
   font-size: 21px;
+  width: 100%;
+  text-align: left;
+  font-weight: 100;
+  line-height: 35px;
 }
+
+.hidden-button-container {
+  display: none;
+}
+
+.hidden-button-container i {
+  font-size: 30px;
+  transform: rotate(45deg);
+  color: whitesmoke;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+#first-more-button {
+  transition-duration: .25s;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+/* #first-more-button:hover {
+  color: black;
+  background-color: rgb(1, 123, 217);
+} */
+
+#first-learn-more-span {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
 #first-hidden-card {
   display: none;
   background-color: rgb(9, 25, 38);
 }
+
 #first-hidden-button {
+  font-size: 30px;
   transform: rotate(45deg);
-  color: rgb(1, 123, 217);
-  border: 1px solid rgb(1, 123, 217);
-  background-color: black;
+  color: whitesmoke;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 5%;
 }
-#first-hidden-button:hover {
-  color: black;
-  background-color: rgb(1, 123, 217);
-}
-#second-more-button {
+
+
+
+/* #second-more-button {
+  transition-duration: .25s;
   color: whitesmoke;
   border: 1px solid whitesmoke;
   background-color: lightcoral;
 }
+
 #second-more-button:hover {
   color: lightcoral;
   background-color: whitesmoke;
+} */
+#second-more-button {
+  transition-duration: .25s;
+  font-size: 30px;
+  color: whitesmoke;
 }
+
 #second-learn-more-span {
   color: whitesmoke;
   font-size: 15px;
   margin-left: 10px;
   cursor: pointer;
 }
+
 #second-hidden-card {
   display: none;
   background-color: lightcoral;
 }
-#second-hidden-button {
+
+/* #second-hidden-button {
   transform: rotate(45deg);
   color: whitesmoke;
   border: 1px solid whitesmoke;
   background-color: lightcoral;
-}
-#second-hidden-button:hover {
+} */
+
+/* #second-hidden-button:hover {
   color: lightcoral;
   background-color: whitesmoke;
-}
-#third-more-button {
+} */
+
+/* #third-more-button {
+  transition-duration: .25s;
   color: lightblue;
   border: 1px solid lightblue;
   background-color: rgb(1, 123, 217);
 }
+
 #third-more-button:hover {
   color: rgb(1, 123, 217);
   background-color: lightblue;
+} */
+#third-more-button {
+  transition-duration: .25s;
+  color: wb\i;
+  font-size: 30px;
 }
+
 #third-learn-more-span {
-  color: lightblue;
+  color: wb\i;
   font-size: 15px;
   margin-left: 10px;
   cursor: pointer;
 }
+
 #third-hidden-card {
   display: none;
   background-color: rgb(1, 123, 217);
 }
-#third-hidden-button {
+
+/* #third-hidden-button {
   transform: rotate(45deg);
   color: lightblue;
   border: 1px solid lightblue;
   background-color: rgb(1, 123, 217);
 }
+
 #third-hidden-button:hover {
   color: rgb(1, 123, 217);
-  background-color: lightblue;
-}
-#fourth-more-button {
+  background-color: rgb(169, 203, 214);
+} */
+
+/* #fourth-more-button {
+  transition-duration: .25s;
   color: rgb(1, 123, 217);
   border: 1px solid rgb(1, 123, 217);
   background-color: rgb(9, 25, 38));
+} */
+#fourth-more-button {
+  transition-duration: .25s;
+  font-size: 30px;
+  color: whitesmoke;
 }
-#fourth-more-button:hover {
+
+
+/* #fourth-more-button:hover {
   color: rgb(9, 25, 38);
   background-color: rgb(1, 123, 217);
-}
+} */
+
 #fourth-learn-more-span {
   color: whitesmoke;
   font-size: 15px;
   margin-left: 10px;
   cursor: pointer;
 }
+
 #fourth-hidden-card {
   display: none;
   background-color: rgb(9, 25, 38);
 }
-#fourth-hidden-button {
+
+/* #fourth-hidden-button {
   transform: rotate(45deg);
   color: rgb(1, 123, 217);
   border: 1px solid rgb(1, 123, 217);
   background-color: rgb(9, 25, 38);
 }
+
 #fourth-hidden-button:hover {
   color: rgb(9, 25, 38);
   background-color: rgb(1, 123, 217);
-}
-#fifth-more-button {
+} */
+
+/* #fifth-more-button {
+  transition-duration: .25s;
   color: whitesmoke;
   border: 1px solid whitesmoke;
   background-color: lightcoral;
 }
+
 #fifth-more-button:hover {
   color: lightcoral;
   background-color: whitesmoke;
+} */
+#fifth-more-button {
+  transition-duration: .25s;
+  color: whitesmoke;
+  font-size: 30px;
 }
+
 #fifth-learn-more-span {
   color: whitesmoke;
   font-size: 15px;
   margin-left: 10px;
   cursor: pointer;
 }
+
 #fifth-hidden-card {
   display: none;
   background-color: lightcoral;
 }
-#fifth-hidden-button {
+
+/* #fifth-hidden-button {
   transform: rotate(45deg);
   color: whitesmoke;
   border: 1px solid whitesmoke;
   background-color: lightcoral;
 }
+
 #fifth-hidden-button:hover {
   color: lightcoral;
   background-color: whitesmoke;
-}
+} */
 
-#sixth-more-button {
+/* #sixth-more-button {
+  transition-duration: .25s;
   color: lightblue;
   border: 1px solid lightblue;
   background-color: rgb(1, 123, 217));
 }
+
 #sixth-more-button:hover {
   color: rgb(1, 123, 217);
   background-color: lightblue;
+} */
+#sixth-more-button {
+  transition-duration: .25s;
+  color: whitesmoke;
+  font-size: 30px;
 }
+
 #sixth-learn-more-span {
-  color: lightblue;
+  color: whitesmoke;
   font-size: 15px;
   margin-left: 10px;
   cursor: pointer;
 }
+
 #sixth-hidden-card {
   display: none;
   background-color: rgb(1, 123, 217);
 }
-#sixth-hidden-button {
+
+/* #sixth-hidden-button {
   transform: rotate(45deg);
   color: lightblue;
   border: 1px solid lightblue;
   background-color: rgb(1, 123, 217);
 }
+
 #sixth-hidden-button:hover {
   color: rgb(1, 123, 217);
   background-color: lightblue;
+} */
+#seventh-more-button {
+  transition-duration: .25s;
+  color: whitesmoke;
+  font-size: 30px;
 }
+
+#seventh-learn-more-span {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#seventh-hidden-card {
+  display: none;
+  background-color: rgb(9, 25, 38);
+}
+
+#eigth-more-button {
+  transition-duration: .25s;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+#eigth-learn-more-span {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#eigth-hidden-card {
+  display: none;
+  background-color: lightcoral;
+}
+
+#ninth-more-button {
+  transition-duration: .25s;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+#ninth-learn-more-span {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#ninth-hidden-card {
+  display: none;
+  background-color: rgb(1, 123, 217);
+}
+
+
 @media only screen and (max-width: 1100px) {
   .safety-card {
     width: 736px;
     height: 450px;
   }
+
   .safety-security-header {
     font-size: 48px;
   }
+
   .safety-security-header-container {
     height: 40vh;
   }
+
   .safety-card-left-container {
     height: auto;
   }
+
   .safety-left-header {
     font-size: 40px;
   }
+
   .safety-left-text {
     font-size: 17px;
     font-weight: 400;
+    line-height: 25px;
   }
+
+  .hidden-header {
+    font-size: 40px
+  }
+
+  .hidden-text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
   .card-icon {
     width: 325px;
   }
+
   .security-text-breaks {
     display: none;
   }
-  .safety-card-hidden {
+
+  /* .safety-card-hidden {
     background-color: rgb(9, 25, 38);
     position: fixed;
     top: 0;
@@ -379,6 +586,10 @@
     border-radius: 0px;
     z-index: 10;
   }
+
+  .hidden-button-container {
+    display: block;
+  } */
 }
 
 @media only screen and (max-width: 750px) {
@@ -387,11 +598,13 @@
     height: 100vh;
     flex-flow: column nowrap;
   }
+
   .safety-card-left {
     width: 100%;
     padding: 50px 0px;
     border-radius: 0px 0px 30px 30px;
   }
+
   .safety-card-right {
     order: -1;
     width: 100%;
@@ -402,13 +615,42 @@
   .safety-card-left-container {
     width: 90%;
   }
+
   #security-cards {
     height: 110vh;
   }
+
+  .safety-card-hidden {
+    background-color: rgb(9, 25, 38);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0px;
+    z-index: 10;
+  }
+
+  .hidden-button-container {
+    display: block;
+  }
+
+  .hidden-header {
+    text-align: center;
+  }
+
+  .hidden-text {
+    text-align: center;
+  }
 }
+
 @media only screen and (max-width: 650px) {
   .learn-more {
     bottom: -10%;
+  }
+
+  #first-hidden-button {
+    top: 10%;
   }
 }
 
@@ -416,37 +658,46 @@
   .safety-security-header {
     font-size: 36px;
   }
+
   .safety-security-header-container {
     height: 30vh;
   }
 }
+
 @media only screen and (max-width: 425px) {
+
   /* .safety-card {
     height: 90vh;
   } */
   .safety-card-right {
     height: 50%;
   }
+
   /* .safety-card-left {
     height: 50%;
   } */
   .safety-left-text {
     width: 100%;
   }
+
   .card-icon {
     width: 275px;
   }
 }
+
 @media only screen and (max-width: 424px) {
   .safety-security-header {
     font-size: 26px;
   }
+
   .safety-security-header-container {
     height: 20vh;
   }
+
   .safety-left-header {
     font-size: 32px;
   }
+
   .card-icon {
     width: 250px;
   }
