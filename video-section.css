@@ -26,8 +26,6 @@
   line-height: 1.05;
   font-weight: 600;
   letter-spacing: -0.015em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
-    "Arial", sans-serif;
 }
 
 .header-lock-ptags {
@@ -48,8 +46,6 @@
   line-height: 1.28583;
   font-weight: 400;
   letter-spacing: 0.007em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
-    "Arial", sans-serif;
 }
 
 .karan-img-container {
@@ -205,7 +201,7 @@ iframe {
 
   .header-left-side {
     margin: auto;
-    width: 100%;
+    width: 95%;
     align-items: center;
   }
 
