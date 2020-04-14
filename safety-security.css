@@ -241,11 +241,6 @@
   color: whitesmoke;
 }
 
-/* #first-more-button:hover {
-  color: black;
-  background-color: rgb(1, 123, 217);
-} */
-
 #first-learn-more-span {
   color: whitesmoke;
   font-size: 15px;
@@ -268,19 +263,6 @@
   left: 5%;
 }
 
-
-
-/* #second-more-button {
-  transition-duration: .25s;
-  color: whitesmoke;
-  border: 1px solid whitesmoke;
-  background-color: lightcoral;
-}
-
-#second-more-button:hover {
-  color: lightcoral;
-  background-color: whitesmoke;
-} */
 #second-more-button {
   transition-duration: .25s;
   font-size: 30px;
@@ -299,29 +281,6 @@
   background-color: lightcoral;
 }
 
-/* #second-hidden-button {
-  transform: rotate(45deg);
-  color: whitesmoke;
-  border: 1px solid whitesmoke;
-  background-color: lightcoral;
-} */
-
-/* #second-hidden-button:hover {
-  color: lightcoral;
-  background-color: whitesmoke;
-} */
-
-/* #third-more-button {
-  transition-duration: .25s;
-  color: lightblue;
-  border: 1px solid lightblue;
-  background-color: rgb(1, 123, 217);
-}
-
-#third-more-button:hover {
-  color: rgb(1, 123, 217);
-  background-color: lightblue;
-} */
 #third-more-button {
   transition-duration: .25s;
   color: wb\i;
@@ -340,35 +299,12 @@
   background-color: rgb(1, 123, 217);
 }
 
-/* #third-hidden-button {
-  transform: rotate(45deg);
-  color: lightblue;
-  border: 1px solid lightblue;
-  background-color: rgb(1, 123, 217);
-}
-
-#third-hidden-button:hover {
-  color: rgb(1, 123, 217);
-  background-color: rgb(169, 203, 214);
-} */
-
-/* #fourth-more-button {
-  transition-duration: .25s;
-  color: rgb(1, 123, 217);
-  border: 1px solid rgb(1, 123, 217);
-  background-color: rgb(9, 25, 38));
-} */
 #fourth-more-button {
   transition-duration: .25s;
   font-size: 30px;
   color: whitesmoke;
 }
 
-
-/* #fourth-more-button:hover {
-  color: rgb(9, 25, 38);
-  background-color: rgb(1, 123, 217);
-} */
 
 #fourth-learn-more-span {
   color: whitesmoke;
@@ -382,29 +318,6 @@
   background-color: rgb(9, 25, 38);
 }
 
-/* #fourth-hidden-button {
-  transform: rotate(45deg);
-  color: rgb(1, 123, 217);
-  border: 1px solid rgb(1, 123, 217);
-  background-color: rgb(9, 25, 38);
-}
-
-#fourth-hidden-button:hover {
-  color: rgb(9, 25, 38);
-  background-color: rgb(1, 123, 217);
-} */
-
-/* #fifth-more-button {
-  transition-duration: .25s;
-  color: whitesmoke;
-  border: 1px solid whitesmoke;
-  background-color: lightcoral;
-}
-
-#fifth-more-button:hover {
-  color: lightcoral;
-  background-color: whitesmoke;
-} */
 #fifth-more-button {
   transition-duration: .25s;
   color: whitesmoke;
@@ -423,29 +336,6 @@
   background-color: lightcoral;
 }
 
-/* #fifth-hidden-button {
-  transform: rotate(45deg);
-  color: whitesmoke;
-  border: 1px solid whitesmoke;
-  background-color: lightcoral;
-}
-
-#fifth-hidden-button:hover {
-  color: lightcoral;
-  background-color: whitesmoke;
-} */
-
-/* #sixth-more-button {
-  transition-duration: .25s;
-  color: lightblue;
-  border: 1px solid lightblue;
-  background-color: rgb(1, 123, 217));
-}
-
-#sixth-more-button:hover {
-  color: rgb(1, 123, 217);
-  background-color: lightblue;
-} */
 #sixth-more-button {
   transition-duration: .25s;
   color: whitesmoke;
@@ -464,17 +354,6 @@
   background-color: rgb(1, 123, 217);
 }
 
-/* #sixth-hidden-button {
-  transform: rotate(45deg);
-  color: lightblue;
-  border: 1px solid lightblue;
-  background-color: rgb(1, 123, 217);
-}
-
-#sixth-hidden-button:hover {
-  color: rgb(1, 123, 217);
-  background-color: lightblue;
-} */
 #seventh-more-button {
   transition-duration: .25s;
   color: whitesmoke;
