@@ -1,10 +1,12 @@
 .price-section {
-  background-color: rgb(4.5, 12.5, 19);
+  /* background-color: rgb(4.5, 12.5, 19); */
+  background: white;
 }
 
 .pricing-header-section {
-  background-image: linear-gradient(black, rgb(4.5, 12.5, 19));
-
+  /* background-image: linear-gradient(black, rgb(4.5, 12.5, 19)); */
+  background: #232323;
+  padding-bottom: 3vh;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -24,7 +26,7 @@
 #annually {
   height: auto;
   padding: 15px;
-  background-color: black;
+  background-color: #232323;
   color: rgb(235, 235, 235);
   cursor: pointer;
   border-radius: 0px 25px 25px 0px;
@@ -35,7 +37,7 @@
   height: auto;
   padding: 15px;
   background-color: rgb(235, 235, 235);
-  color: black;
+  color: #232323;
   cursor: pointer;
   border-radius: 25px 0px 0px 25px;
 }
@@ -48,21 +50,24 @@
   margin: 5vh auto;
   margin-bottom: 0px;
   padding-bottom: 5vh;
-  background-image: linear-gradient(rgb(4.5, 12.5, 19), rgb(9, 25, 38));
+  /* background-image: linear-gradient(rgb(4.5, 12.5, 19), rgb(9, 25, 38)); */
+  background: white;
+
 }
 
 .price-card {
   height: 697px;
   width: 525px;
   padding: 50px 20px;
-  background-color: black;
-  color: white;
+  background-color: rgb(240, 240, 240);
+  color: black;
   border-radius: 25px;
   margin: 0px 1vw;
   display: flex;
   flex-flow: column nowrap;
   /* justify-content: space-between; */
   align-items: center;
+  box-shadow: lightgrey 2px 2px 5px 2px;
 }
 
 .price-card-top-half {
@@ -147,7 +152,7 @@
 @media only screen and (max-width: 750px) {
   .price-card {
     height: auto;
-    width: 100%;
+    width: 95%;
     margin: 2vh auto;
   }
 
