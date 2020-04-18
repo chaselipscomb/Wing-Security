@@ -3,15 +3,17 @@
   flex-flow: column nowrap;
   justify-content: center;
   width: 100%;
-  background-color: black;
+  background-color: white;
 }
 
 .safety-security-header-container {
-  height: 45vh;
-  max-height: 500px;
+  height: 35vh;
+  max-height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #232323;
+  margin-bottom: 10vh;
 }
 
 .safety-security-header {
@@ -25,6 +27,8 @@
   width: 1064px;
   height: 650px;
   margin-bottom: 15vh;
+  box-shadow: lightgrey 5px 5px 10px 5px;
+  border-radius: 30px;
 }
 
 .safety-card-left {
@@ -413,6 +417,7 @@
   .safety-card {
     width: 736px;
     height: 450px;
+    box-shadow: lightgrey 3px 3px 6px 3px;
   }
 
   .safety-security-header {
@@ -420,7 +425,7 @@
   }
 
   .safety-security-header-container {
-    height: 40vh;
+    height: 30vh;
   }
 
   .safety-card-left-container {
@@ -471,9 +476,9 @@
   } */
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .safety-card {
-    width: 99%;
+    width: 95%;
     height: auto;
     flex-flow: column nowrap;
   }
@@ -538,9 +543,9 @@
     font-size: 36px;
   }
 
-  .safety-security-header-container {
+  /* .safety-security-header-container {
     height: 30vh;
-  }
+  } */
 }
 
 @media only screen and (max-width: 425px) {
