@@ -195,6 +195,7 @@
   width: 50%;
   padding: 5%;
   border-radius: 0px 30px 30px 0px;
+  z-index: 9999;
 }
 
 .hidden-content-container {
