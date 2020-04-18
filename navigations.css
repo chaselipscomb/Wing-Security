@@ -58,7 +58,7 @@
 }
 
 .nav-mobile-header {
-  padding: 0px 5px;
+  padding: 5px 5px;
   min-height: 50px;
   display: flex;
   flex-flow: row nowrap;
