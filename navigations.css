@@ -69,6 +69,7 @@
 .nav-mobile-header-div {
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
 }
 
 #nav-mobile-logo {
@@ -81,7 +82,8 @@
 }
 
 .nav-dropdown {
-  /* background-color: rgb(27, 27, 31); */  display: flex;
+  /* background-color: rgb(27, 27, 31); */
+  display: flex;
   flex-flow: column nowrap;
   border-bottom: 1px solid white;
 }
