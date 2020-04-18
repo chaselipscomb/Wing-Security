@@ -833,6 +833,7 @@
         $("#second-more-button").css('transform', 'rotate(45deg');
         if (x.matches) {
           $("#second-safety-card-right").css("visibility", "hidden");
+          $("#second-safety-card-left").css("visibility", "hidden");
           $("#second-hidden-card").slideDown();
           // css("display", "flex");
         } else {
@@ -855,6 +856,7 @@
       $("#second-hidden-card").slideUp();
       // .css("display", "none");
       $("#second-safety-card-right").css("visibility", "visible");
+      $("#second-safety-card-left").css("visibility", "visible");
     });
 
     $("#third-learn-more-container").click(function () {
