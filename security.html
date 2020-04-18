@@ -925,8 +925,8 @@
       $("#fourth-hidden-card").slideUp();
       // .css("display", "none");
       // $("#fourth-safety-card-right").css("display", "flex");
-      $("#fourth-safety-card-right").css("visibility", "hidden");
-      $("#fourth-safety-card-left").css("visibility", "hidden");
+      $("#fourth-safety-card-right").css("visibility", "visible");
+      $("#fourth-safety-card-left").css("visibility", "visible");
     });
 
     $("#fifth-learn-more-container").click(function () {
@@ -993,12 +993,13 @@
       $("#sixth-safety-card-left").css("visibility", "visible");
     });
 
+
     $("#seventh-learn-more-container").click(function () {
       if ($("#seventh-hidden-card").css('display') == 'none') {
         $("#seventh-more-button").css('transform', 'rotate(45deg');
         if (x.matches) {
-          ("#seventh-safety-card-right").css("visibility", "hidden");
-          ("#seventh-safety-card-left").css("visibility", "hidden");
+          $("#seventh-safety-card-right").css("visibility", "hidden");
+          $("#seventh-safety-card-left").css("visibility", "hidden");
           $("#seventh-hidden-card").slideDown();
           // css("display", "flex");
         } else {
