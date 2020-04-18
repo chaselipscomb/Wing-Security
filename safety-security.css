@@ -7,7 +7,7 @@
 }
 
 .safety-security-header-container {
-  height: 45vh;
+  height: 35vh;
   max-height: 350px;
   display: flex;
   justify-content: center;
@@ -425,7 +425,7 @@
   }
 
   .safety-security-header-container {
-    height: 40vh;
+    height: 30vh;
   }
 
   .safety-card-left-container {
@@ -543,9 +543,9 @@
     font-size: 36px;
   }
 
-  .safety-security-header-container {
+  /* .safety-security-header-container {
     height: 30vh;
-  }
+  } */
 }
 
 @media only screen and (max-width: 425px) {
